@@ -1,0 +1,184 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+/* FontAwesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+/* Bootstrap */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh');
+
+body {
+    overflow-x: hidden;
+}
+/* COMPONENTS */
+/* ---------- NAVBAR ---------- */
+/* MainNav */
+.navbar {
+    background-color: #fff !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    box-shadow: 0px 0.5px 10px rgba(000, 000, 000, 0.05);
+    border-bottom: 1px solid rgba(000, 000, 000, 0.03);
+}
+.navbar-brand {
+    color: #000 !important;
+    font-weight: 700;
+}
+.navbar a {
+    color: #000;
+}
+.navbar .right-links a {
+    margin-left: 15px;
+    font-size: 15px;
+}
+.navbar .right-links a:hover {
+    color: #080e2c;
+    text-decoration: none;
+}
+/* SubNav */
+.subNav {
+    color: #fff;
+    border-radius: 0px !important;
+}
+.subNav a {
+    color: #fff;
+    margin-right: 20px;
+}
+.subNav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ---------- BUTTONS ---------- */
+/* primaryButton */
+.primaryButton {
+    padding: 15px 30px;
+    background-image: linear-gradient(#104eed, #0037c3);
+    color: #fff !important;
+    border-radius: 5px;
+}
+/* secondaryButton */
+.secondaryButton {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff !important;
+    border-radius: 5px;
+}
+/* whiteButton */
+.whiteButton {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #000 !important;
+    border-radius: 5px;
+}
+/* greenButton */
+.greenButton {
+    padding: 15px 30px;
+    background-image: linear-gradient(#00ff2a, #13d302);
+    color: #080e2c !important;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* startButton */
+.startButton {
+    padding: 12px 30px;
+    background-image: linear-gradient(#fa9d63, #fd5e5e);
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+/* INPUT FIELDS */
+.primaryInput {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 30px rgba(000, 000, 000, 0.1);
+    padding: 15px;
+    width: 100%;
+}
+
+/* ---------- TEXTS ---------- */
+.p15 {
+    font-weight: 400 !important;
+    font-size: 15px;
+}
+.p18 {
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+.p20 {
+    font-weight: 400 !important;
+    font-size: 20px;
+}
+.p30 {
+    font-weight: 400 !important;
+    font-size: 30px;
+}
+.h22 {
+    font-weight: 600 !important;
+    font-size: 22px;
+}
+.h30 {
+    font-weight: 600 !important;
+    font-size: 30px;
+}
+.h35 {
+    font-weight:600 !important;
+    font-size: 35px;
+}
+.h50 {
+    font-weight: 700 !important;
+    font-size: 50px;
+    color: #000;
+}
+
+/* ---------- CONTAINERS ---------- */
+/* primaryContainer */
+.primaryContainer {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 30px rgba(000, 000, 000, 0.1);   
+}
+/* secondaryContainer */
+.secondaryContainer {
+    background-color: #000;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+/* blueContainer */
+.blueContainer {
+    /* background-image: url("bgblue.png"); */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+/* ---------- PILLS ---------- */
+/* primaryPills */
+.primaryPill {
+    background-color: rgb(144, 201, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 43, 235);
+}
+/* secondaryPills */
+.secondaryPill {
+    background-color: rgb(144, 255, 177);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 180, 54);
+}
+/* alertPills */
+.alertPill {
+    background-color: rgb(255, 144, 172);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(180, 0, 15);
+}
