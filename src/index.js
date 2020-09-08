@@ -9,7 +9,7 @@ import About from './About'
 import Contact from './Contact'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route path='/' exact render={props => <App {...props} />}/>
       {/* <Route path='/events' exact render={props => <Events {...props} />}/>
