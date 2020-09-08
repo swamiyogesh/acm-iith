@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df2787a2dba7956958eddb5cc7835744",
+    "revision": "975ca11a9f9716ca05a1bba318ee2189",
     "url": "/acm-iith/index.html"
   },
   {
-    "revision": "a84c2c09788a36161659",
+    "revision": "bb9eed900f41d50071fc",
     "url": "/acm-iith/static/css/main.c618222e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acm-iith/static/js/2.1606a93a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a84c2c09788a36161659",
-    "url": "/acm-iith/static/js/main.57607e1a.chunk.js"
+    "revision": "bb9eed900f41d50071fc",
+    "url": "/acm-iith/static/js/main.d0847780.chunk.js"
   },
   {
     "revision": "ff9f9c27ffbf5c295f4a",
