@@ -6,7 +6,7 @@ import App from './App';
 // import Blogs from './Blogs'
 // import Team from './Team'
 import About from './About'
-import Contact from './Contact'
+import MachineIntelligance from './Groups/MachineIntelligance'
 
 ReactDOM.render(
   <HashRouter>
@@ -16,7 +16,7 @@ ReactDOM.render(
       <Route path='/blogs' exact render={props => <Blogs {...props} />}/>
       <Route path='/team' exact render={props => <Team {...props} />}/> */}
       <Route path='/about' exact render={props => <About {...props} />}/>
-      <Route path='/contact' exact render={props => <Contact {...props} />}/>
+      <Route path='/info/machine-intelligance' exact render={props => <MachineIntelligance {...props} />}/>
       <App />
     </Switch>
   </HashRouter>,

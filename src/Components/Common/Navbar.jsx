@@ -2,7 +2,7 @@ import React from 'react'
 import '../../css/style.css';
 import '../../css/common.css';
 import { BrowserView, MobileView } from 'react-device-detect'
-import  { NavDropdown } from 'react-bootstrap'
+import  { NavDropdown,  Nav } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navbar()   {
@@ -10,7 +10,7 @@ function Navbar()   {
     return (
         <div className="Navbar">
         <BrowserView>
-                <nav className="navbar navbar-expand fixed-top">
+                <nav className="navbar navbar-expand-lg fixed-top">
                      <div className="container">
                      <a className="navbar-brand" href="/acm-iith/#" >
                         <span>
@@ -23,13 +23,33 @@ function Navbar()   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "40%"}}>
-                         <a href="/acm-iith/#" style={{fontSize: "24px"}}>Home</a>
+                     <span className="navbar-text right-links" style={{marginLeft: "0%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
-                         <AnchorLink href='#aboutus'><a style={{fontSize: "24px"}}>About Us</a></AnchorLink>
-                         <AnchorLink href='#contactus'><a style={{fontSize: "24px"}}>Contact Us</a></AnchorLink>
+                         {/* <AnchorLink href='#aboutus'><a >About Us</a></AnchorLink>
+                         
+                         <AnchorLink href='#contactus'><a >Contact Us</a></AnchorLink> */}
+
+                         <Nav className="mr-auto">
+                         <Nav.Link href="/acm-iith/#">Home</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/about">About Us</Nav.Link>
+                        
+                        <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligance">Machine Intelligence</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/systems-and-network">Systems and Network</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
+                        </NavDropdown>
+                        
+                        <NavDropdown title="Resources" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/acm-iith/#/Projects">Projects</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/News">News</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Posts">Posts</NavDropdown.Item>
+                        </NavDropdown>
+
+                        <Nav.Link href="#contactus">Contact Us</Nav.Link>
+                        </Nav>
                      </span>
                      </div>
                      </div>

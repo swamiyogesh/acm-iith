@@ -35,6 +35,7 @@ function Mainpart() {
                             It allows students from graduate and undergraduate
                             backgrounds to interact, network and learn both technical
                             and research aligned skills.
+                            <a href="/acm-iith/#/about">&nbsp;Know more.</a>
                         </p>
                     </div>
                     
@@ -58,15 +59,6 @@ function Mainpart() {
                 {/* </div>                    
                 </div> */}
 
-                <hr style={{backgroundColor: "black"}} />
-                <br />
-                <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;About Us</p>
-                <br />
-                <p className="p18">IIT Hyderabad ACM student chapter has been officially chartered on 31st August, 2020 under the shelter of department of Computer Science and Engineering. The chapter will organize events which includes talks by renowned speakers, workshops, etc, allowing the students to gain an exposure in the computing world as well as to understand the advancements happening in computer science worldwide.
-                    <br /><br   />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. It attempts to create oppurtunities for networking, mentoring and bonding with peers and experts across the computing spectrum.  
-                </p>
-                <br />
                 <hr style={{backgroundColor: "black"}} />
                 <br />
 
@@ -93,7 +85,7 @@ function Mainpart() {
             </div>
             <div class="col-md">
                 <br />
-                <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>Achievements</a>
+                <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>Upcoming Events</a>
                 <br /><br />
                 <p><i class="fa fa-edit"></i><b> We are now live!</b></p>
                 <p>Check us out at acm.iith.ac.in soon!</p>
