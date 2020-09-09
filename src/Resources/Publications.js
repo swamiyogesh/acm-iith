@@ -7,6 +7,10 @@ function Publications()  {
     return (
         <div className="Publications">
             <Navbar />
+            <div className="container">
+                <br /><br />
+                <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Publications</p>
+            </div>
         </div>
     )
 }

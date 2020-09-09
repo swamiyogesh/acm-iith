@@ -7,6 +7,10 @@ function MachineIntelligance()  {
     return (
         <div className="MachineIntelligance">
             <Navbar />
+            <div className="container">
+                <br /><br />
+                <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Machine Intelligance</p>
+            </div>
         </div>
     )
 }
