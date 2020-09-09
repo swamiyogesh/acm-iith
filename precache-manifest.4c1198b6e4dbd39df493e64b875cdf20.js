@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68121e503b9e042383d2f18f3440699a",
+    "revision": "9cebf6d9eba4a003ee59884f9c53c44b",
     "url": "/acm-iith/index.html"
   },
   {
-    "revision": "972d580be8f2fa3a1d5d",
+    "revision": "e9ac4419d9215cd9db98",
     "url": "/acm-iith/static/css/main.c618222e.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acm-iith/static/js/2.ec79015b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "972d580be8f2fa3a1d5d",
-    "url": "/acm-iith/static/js/main.97522ebf.chunk.js"
+    "revision": "e9ac4419d9215cd9db98",
+    "url": "/acm-iith/static/js/main.220cd249.chunk.js"
   },
   {
     "revision": "ff9f9c27ffbf5c295f4a",
     "url": "/acm-iith/static/js/runtime-main.96d9de5d.js"
   },
   {
-    "revision": "c37e81642c55417d740a54ad95695c24",
-    "url": "/acm-iith/static/media/header_image.c37e8164.jpg"
+    "revision": "f7b98f57ed42c60f1cabf7a58af7754e",
+    "url": "/acm-iith/static/media/header_image_2.f7b98f57.jpg"
   }
 ]);
