@@ -18,6 +18,7 @@ function About()   {
                             <br /><p style={{fontSize: '22px'}}>IIT Hyderabad ACM student chapter has been officially chartered on 31st August, 2020 under the department of Computer Science and Engineering. The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. The chapter will organize events which includes talks by renowned speakers, workshops, etc, allowing the students to gain an exposure  in the computing world as well as to understand the advancements happening in computer science worldwide.</p>
                         </div>
                     </div>
+                    <br /><br /><br /><br />
                     <div class = "col-md">
                         <center><p class="h20" style={{color: '#f05a22', fontSize: '24px', borderRadius: '15px'}}>ACM Student Chapter</p></center>
                         <br />
