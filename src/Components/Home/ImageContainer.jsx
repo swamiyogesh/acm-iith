@@ -16,7 +16,7 @@ function ImageContainer()   {
             <div className="container">
                 <center>
                  <div className="primaryContainer" style={{borderRadius: '15px'}}>
-                     <img src = {require('../../assets/images/header_image.jpg')} style={{height: "100%", width:"100%"}}  alt="" />
+                     <img src = {require('../../assets/images/header_image_2.jpg')} style={{height: "100%", width:"100%"}}  alt="" />
                  </div>
                 </center>
              </div>
