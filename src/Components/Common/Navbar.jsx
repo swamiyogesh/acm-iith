@@ -23,7 +23,7 @@ function Navbar()   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "-10%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft: "-20%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
@@ -50,6 +50,7 @@ function Navbar()   {
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
+                        <a href="/acm-iith/#/joinus"><button class="button"><span>Join Us</span></button></a>
                         </Nav>
                      </span>
                      </div>
