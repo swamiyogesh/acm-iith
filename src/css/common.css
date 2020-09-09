@@ -128,7 +128,11 @@ body {
     font-size: 50px;
     color: #000;
 }
-
+.h60 {
+    font-weight: 700 !important;
+    font-size: 60px;
+    color: #000;
+}
 /* ---------- CONTAINERS ---------- */
 /* primaryContainer */
 .primaryContainer {
@@ -142,11 +146,11 @@ body {
 }
 /* secondaryContainer */
 .secondaryContainer {
-    background-color: #000;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    background-color: #fff;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
     border-radius: 5px;
 }
 /* blueContainer */

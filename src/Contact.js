@@ -24,7 +24,7 @@ function Contact()   {
                 <div className="primaryContainer" style={{borderRadius: '15px', textAlign: 'center'}}>
                     <p class="h35" style={{color: "black"}}>Shoot us an email at the address below to get in touch!</p>
                     <br />
-                    <a class="p30" href="mailto: acm.iit@gmail.com" style={{color: '#f05a22', fontSize: '20px'}}>acm.iit@gmail.com</a>
+                    <a class="p30" href="mailto: acm.iit@gmail.com" style={{color: '#3074b7', fontSize: '20px'}}>acm.iit@gmail.com</a>
                 </div>
                 <br />
                 <div className="primaryContainer" style={{ height: '100vh', width: '100%', borderRadius: '15px' }}>

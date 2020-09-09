@@ -14,11 +14,21 @@ function ImageContainer()   {
                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg> */}
             <div className="container">
-                <center>
+                <br />
+                <span>
+                <img src = {require('../../assets/images/iith.png')} style={{height: "12%", width:"12%"}}  alt=" " />
+                &nbsp;
+                <img src = {require('../../assets/images/acm.png')} style={{height: "12%", width:"12%"}}  alt=" " />
+                </span>
+                <br />
+
+                {/* <center>
+                    
+
                  <div className="primaryContainer" style={{borderRadius: '15px'}}>
                      <img src = {require('../../assets/images/header_image_2.jpg')} style={{height: "100%", width:"100%"}}  alt=" " />
                  </div>
-                </center>
+                </center> */}
              </div>
         </div>
     )
