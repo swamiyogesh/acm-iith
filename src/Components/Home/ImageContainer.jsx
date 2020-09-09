@@ -2,6 +2,7 @@ import React from 'react'
 import '../../css/style.css';
 import '../../css/common.css';
 
+
 function ImageContainer()   {
     return (
         <div className = "ImageCotnainer">
@@ -14,8 +15,8 @@ function ImageContainer()   {
             </svg> */}
             <div className="imageContainer">
                 <center>
-                 <div className="primaryContainer" style={{height: '600px', width: '60%', borderRadius: '15px'}}>
-                     <img src = "https://www.iith.ac.in/assets/images/towers/tower2.jpg" style={{height: "100%", width:"100%"}}  alt="" />
+                 <div className="primaryContainer" style={{height: '400px', width: '60%', borderRadius: '15px'}}>
+                     <img src = {require('../../assets/images/header_image.jpg')} style={{height: "100%", width:"100%"}}  alt="" />
                  </div>
                 </center>
              </div>

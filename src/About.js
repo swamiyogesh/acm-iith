@@ -2,7 +2,7 @@ import React from 'react'
 import './css/style.css';
 import './css/common.css';
 import Navbar from './Components/Common/Navbar'
-import Footer from './Components/Common/Footer'
+// import Footer from './Components/Common/Footer'
 
 function About()   {
     return (
@@ -31,9 +31,9 @@ function About()   {
 
             
 
-            <div style={{position: 'absolute', width: '100%', bottom: 0}}>
+            {/* <div style={{position: 'absolute', width: '100%', bottom: 0}}>
                 <Footer />
-            </div>
+            </div> */}
         </div>
     )
 }
