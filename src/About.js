@@ -24,7 +24,7 @@ function About()   {
                 </p>
                 <br  />
 
-                <button class="button"><span>Join Us</span></button>
+                <a href="/acm-iith/#/joinus"><button class="button"><span>Join Us</span></button></a>
 
                 {/* <center><a role="button" href="/acm-iith/#/joinus" class="btn btn-outline-primary">Join Us !</a></center> */}
                 
