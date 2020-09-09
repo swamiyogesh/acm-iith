@@ -71,20 +71,6 @@ function Mainpart() {
                 <div className="row">
             <div class="col-md">
                 <br />
-                <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>News</a>
-                <br /><br />
-                <p><i class="fa fa-bullhorn"></i><b> Chapter Started!</b></p>
-                <p>IIT Hyderabad ACM Student Chapter officially chartered on 31-08-2020</p>
-                <p><i class="fa fa-bullhorn"></i><b> Honoiurable mention to team</b></p>
-                <p>Lorem Epsum Event is gonna be awesome.</p>
-                <p><i class="fa fa-bullhorn"></i><b> Inauguration</b></p>
-                <p>Lorem Epsum Event is gonna be awesome.</p>
-                <p><i class="fa fa-bullhorn"></i><b> Honoiurable mention to team</b></p>
-                <p>Lorem Epsum Event is gonna be awesome.</p>
-                <br />
-            </div>
-            <div class="col-md">
-                <br />
                 <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>Upcoming Events</a>
                 <br /><br />
                 <p><i class="fa fa-edit"></i><b> We are now live!</b></p>
@@ -96,6 +82,20 @@ function Mainpart() {
                 <p><i class="fa fa-edit"></i><b> xyz!</b></p>
                 <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum</p>
                 <br />
+            </div>
+            <div class="col-md">
+                <br />
+                <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>News</a>
+                <br /><br />
+                <p><i class="fa fa-bullhorn"></i><b> Chapter Started!</b></p>
+                <p>IIT Hyderabad ACM Student Chapter officially chartered on 31-08-2020</p>
+                <p><i class="fa fa-bullhorn"></i><b> Honoiurable mention to team</b></p>
+                <p>Lorem Epsum Event is gonna be awesome.</p>
+                <p><i class="fa fa-bullhorn"></i><b> Inauguration</b></p>
+                <p>Lorem Epsum Event is gonna be awesome.</p>
+                <p><i class="fa fa-bullhorn"></i><b> Honourable mention to team</b></p>
+                <p>Lorem Epsum Event is gonna be awesome.</p>
+                <a href="/acm-iith/#/news"><u>See all</u></a>
             </div>
             </div>
             </div>

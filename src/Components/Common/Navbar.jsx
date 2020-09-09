@@ -23,7 +23,7 @@ function Navbar()   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "0%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft: "-10%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
@@ -34,18 +34,19 @@ function Navbar()   {
                          <Nav className="mr-auto">
                          <Nav.Link href="/acm-iith/#">Home</Nav.Link>
                         <Nav.Link href="/acm-iith/#/about">About Us</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/events">Events</Nav.Link>
                         
                         <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/info/machine-intelligance">Machine Intelligence</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/info/systems-and-network">Systems and Network</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
                         </NavDropdown>
                         
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/Projects">Projects</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/News">News</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/Posts">Posts</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Projects">Projects</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Publications">Publications</NavDropdown.Item>
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>

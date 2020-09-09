@@ -3,12 +3,12 @@ import '../css/style.css';
 import '../css/common.css';
 import Navbar from '../Components/Common/Navbar'
 
-function News()  {
+function Publications()  {
     return (
-        <div className="News">
+        <div className="Publications">
             <Navbar />
         </div>
     )
 }
 
-export default News
+export default Publications

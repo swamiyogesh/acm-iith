@@ -4,13 +4,13 @@ import './css/common.css';
 import Navbar from './Components/Common/Navbar'
 import Footer from './Components/Common/Footer'
 
-function Blogs()   {
+function News()   {
     return (
-        <div className="Blogs">
+        <div className="News">
             <Navbar />
             <h2>lorem epsum</h2>
         </div>
     )
 }
 
-export default Blogs
+export default News
