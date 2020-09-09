@@ -22,7 +22,7 @@ function Mainpart() {
                     <div className="container">
                     {/* <div class="col-md" style={{left: "250px"}}> */}
                         <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #f05a22', top: '50%'}}>&nbsp;ACM Student Chapter</p>
-                        <p className="p20" style={{color: 'black'}}>The IIT Hyderabad ACM student chapter is an official 
+                        <p className="p20" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official 
                             unlucrative student chapter of the Association of Computing 
                             Machinery(ACM). It aims at uniting students with an 
                             interest in Computer Science. 
