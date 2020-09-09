@@ -23,7 +23,7 @@ function Navbar()   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "-20%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft: "-27%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
@@ -37,10 +37,10 @@ function Navbar()   {
                         <Nav.Link href="/acm-iith/#/events">Events</Nav.Link>
                         
                         <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/info/systems-and-network">Systems and Network</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
                         </NavDropdown>
                         
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
@@ -50,7 +50,7 @@ function Navbar()   {
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
-                        <a href="/acm-iith/#/joinus"><button class="button"><span>Join Us</span></button></a>
+                        <a href="/acm-iith/#/joinus"><button class="button"><span>Become a Member</span></button></a>
                         </Nav>
                      </span>
                      </div>
