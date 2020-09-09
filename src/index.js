@@ -6,13 +6,14 @@ import Events from './Events'
 import News from './News'
 // import Team from './Team'
 import About from './About'
-import MachineIntelligance from './Groups/MachineIntelligance'
+import MachineIntelligence from './Groups/MachineIntelligence'
 import Systemsandnetwork from './Groups/Systemsandnetwork'
 import TheoreticalCS from './Groups/TheoreticalCS'
 import WomenInCS from './Groups/WomenInCS'
 import Projects from './Resources/Projects'
 import Posts from './Resources/Posts'
 import Publications from './Resources/Publications'
+import Joinus from './Joinus'
 
 ReactDOM.render(
   <HashRouter>
@@ -22,13 +23,14 @@ ReactDOM.render(
       <Route path='/news' exact render={props => <News {...props} />}/>
       {/* <Route path='/team' exact render={props => <Team {...props} />}/> */}
       <Route path='/about' exact render={props => <About {...props} />}/>
-      <Route path='/info/machine-intelligance' exact render={props => <MachineIntelligance {...props} />}/>
+      <Route path='/info/machine-intelligence' exact render={props => <MachineIntelligence {...props} />}/>
       <Route path='/info/systems-and-network' exact render={props => <Systemsandnetwork {...props} />}/>
       <Route path='/info/theoretical-cs' exact render={props => <TheoreticalCS {...props} />}/>
       <Route path='/info/women-in-cs' exact render={props => <WomenInCS {...props} />}/>
       <Route path='/Projects' exact render={props => <Projects {...props} />}/>
       <Route path='/Posts' exact render={props => <Posts {...props} />}/>
       <Route path='/Publications' exact render={props => <Publications {...props} />}/>
+      <Route path='/joinus' exact render={props => <Joinus {...props} />}/>
       <App />
     </Switch>
   </HashRouter>,

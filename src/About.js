@@ -22,8 +22,10 @@ function About()   {
                 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. It attempts to create oppurtunities for networking, mentoring and bonding with peers and experts across the computing spectrum.  
                 </p>
-                <br />
-                <br />
+                <br  />
+                <center><a role="button" href="/acm-iith/#/joinus" class="btn btn-outline-primary">Join Us !</a></center>
+                
+                <br /><br />
 
                 <Team />
 

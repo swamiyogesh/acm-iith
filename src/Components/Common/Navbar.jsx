@@ -39,7 +39,7 @@ function Navbar()   {
                         <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligance">Machine Intelligence</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/info/systems-and-network">Systems and Network</NavDropdown.Item>
                         </NavDropdown>
                         
