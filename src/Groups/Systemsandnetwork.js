@@ -7,7 +7,7 @@ import { BrowserView, MobileView } from 'react-device-detect'
 function Systemsandnetwork()  {
     return (
         <div className="Systemsandnetwork">
-            <Navbar />
+            <Navbar props="SN" />
             <div className="container">
                 <br /><br /><br />
                 <BrowserView>

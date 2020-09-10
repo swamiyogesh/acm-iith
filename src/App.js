@@ -9,7 +9,7 @@ import Mainpart from './Components/Home/Mainpart'
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar props="Home" />
       {/* <ImageContainer /> */}
       <br /><br />
       <Mainpart />

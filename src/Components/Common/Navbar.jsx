@@ -5,7 +5,7 @@ import { BrowserView, MobileView } from 'react-device-detect'
 import  { NavDropdown,  Nav } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-function Navbar()   {
+function Navbar({ props })   {
 
     return (
         <div className="Navbar">
@@ -32,21 +32,21 @@ function Navbar()   {
                          <AnchorLink href='#contactus'><a >Contact Us</a></AnchorLink> */}
 
                          <Nav className="mr-auto">
-                         <Nav.Link href="/acm-iith/#">Home</Nav.Link>
-                        <Nav.Link href="/acm-iith/#/about">About Us</Nav.Link>
-                        <Nav.Link href="/acm-iith/#/events">Events</Nav.Link>
+                         <Nav.Link href="/acm-iith/#" style={props==='Home' ? {color: "#C0C0C0"} : null}>Home</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/about" style={props==='About' ? {color: "#C0C0C0"} : null}>About Us</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/events" style={props==='Events' ? {color: "#C0C0C0"} : null}>Events</Nav.Link>
                         
                         <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/systems-and-network">Systems and Network</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence" style={props==='MI' ? {color: "#C0C0C0"} : null}>Machine Intelligence</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/systems-and-network" style={props==='SN' ? {color: "#C0C0C0"} : null}>Systems and Network</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs" style={props==='TCS' ? {color: "#C0C0C0"} : null}>Theoretical CS</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs" style={props==='WCS' ? {color: "#C0C0C0"} : null}>Women in CS</NavDropdown.Item>
                         </NavDropdown>
                         
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/Posts">Posts</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/Projects">Projects</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/Publications">Publications</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "#C0C0C0"} : null}>Posts</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Projects" style={props==='Projects' ? {color: "#C0C0C0"} : null}>Projects</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Publications" style={props==='Publications' ? {color: "#C0C0C0"} : null}>Publications</NavDropdown.Item>
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
