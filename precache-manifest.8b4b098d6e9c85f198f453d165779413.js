@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc8de36830b129c19d31bf6efa39df3e",
+    "revision": "f2e5a05db0543d3a0e408fc21dd321b3",
     "url": "/acm-iith/index.html"
   },
   {
-    "revision": "d2100745e1e67ea4942c",
-    "url": "/acm-iith/static/css/main.194a3313.chunk.css"
+    "revision": "b5a2128a20138a38911a",
+    "url": "/acm-iith/static/css/main.d5735f84.chunk.css"
   },
   {
     "revision": "060ddca9bfd08c6d5dd3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acm-iith/static/js/2.d4fb1c6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2100745e1e67ea4942c",
-    "url": "/acm-iith/static/js/main.cf16668a.chunk.js"
+    "revision": "b5a2128a20138a38911a",
+    "url": "/acm-iith/static/js/main.19600d59.chunk.js"
   },
   {
     "revision": "ff9f9c27ffbf5c295f4a",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acm-iith/static/media/iith.045c4a23.png"
   },
   {
-    "revision": "abff2160d3c6178c4ef1ed4299ea0bdc",
-    "url": "/acm-iith/static/media/logo.abff2160.jpg"
+    "revision": "82f9cf429eef2dc98ce661c87220f2ed",
+    "url": "/acm-iith/static/media/logo.82f9cf42.jpg"
   }
 ]);
