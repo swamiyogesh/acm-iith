@@ -24,8 +24,8 @@ function Navbar({ props })   {
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
                      <span className="navbar-text right-links" style={{marginLeft: "-28%"}}>
-                         {/* <a href="/events">Events</a> */}
-                         {/* <a href="/blogs">Blog</a> */}
+                         {/* <a href="/events">Events</a>
+                         <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
                          {/* <AnchorLink href='#aboutus'><a >About Us</a></AnchorLink>
                          
