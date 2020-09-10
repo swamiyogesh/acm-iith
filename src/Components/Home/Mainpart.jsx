@@ -1,29 +1,24 @@
 import React from 'react'
 import '../../css/style.css';
 import '../../css/common.css';
-// import axios from 'axios'
+import { BrowserView, MobileView } from 'react-device-detect'
 
 function Mainpart() {
-
-    // var [children, setChildren] = useState([])
-    // useEffect(() => {
-    //     axios
-    //         .post(`${process.env.REACT_APP_API_URL}/upcoming/event`, {})
-    //         .then(res =>    {
-    //             console.log('events', res.data.events)
-    //             setChildren(res.data.events)
-    //         })
-    // }, [])
 
     return (
         <div className="Mainpart">
             <br /><br />
             <div className="container">
+            <BrowserView>
             <p className="h60" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT Hyderabad ACM Student &nbsp;Chapter</p>
+            </BrowserView>
+            <MobileView>
+            <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT &nbsp;Hyderabad &nbsp;ACM &nbsp;Student &nbsp;Chapter</p>
+            </MobileView>
             <br />
             <div className="row">
                     <div class="col-md-2">
-                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "90%", width:"110%"}}  alt=" " />
+                        <BrowserView><img src = {require('../../assets/images/logo.jpg')} style={{height: "90%", width:"110%"}}  alt=" " /></BrowserView>
                     </div>
                     
                     <div class="col-md">

@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/style.css';
 import '../css/common.css';
 import Navbar from '../Components/Common/Navbar'
+import { BrowserView, MobileView } from 'react-device-detect'
 
 function MachineIntelligence()  {
     return (
@@ -9,7 +10,12 @@ function MachineIntelligence()  {
             <Navbar />
             <div className="container">
                 <br /><br />
-                <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Machine Intelligence</p>
+                <BrowserView>
+                    <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Machine Intelligence</p>
+                </BrowserView>
+                <MobileView>
+                    <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Machine &nbsp;Intelligence</p>
+                </MobileView>
                 <br /><br />
                 <p className="p20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machine Intelligence Group is a part of ACM IIT Hyderabad Student Chapter, focusing on research and applications in areas like Computer Vision, Natural Language and Data Mining. 
 We aim to build a strong machine learning community at IIT Hyderabad, by organising weekely paper discussions, providing a mentoring platform to beginner minds and collaborating on hot research projects with aim to publish them in top conferences/journals.

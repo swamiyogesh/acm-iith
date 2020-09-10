@@ -65,15 +65,35 @@ function Navbar()   {
 
             <nav className="navbar navbar-expand fixed-top">
                 <div className="container">
-                    <a className="navbar-brand" href="/acm-iith/#" style={{ textDecoration: 'none', borderBottom: '3px solid #f05a22', top: '50%' }}>ACM | IIT Hyderabad</a>
+                    <a className="navbar-brand" href="/acm-iith/#">
+                        <span>
+                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "15%", width:"15%"}}  alt=" " />
+                        </span>
+                    </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarText">
+                    <div className="collapse navbar-collapse" id="navbarText" style={{marginLeft: "-28%"}}>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#">Home</NavDropdown.Item>
-                            <AnchorLink href='#aboutus'><NavDropdown.Item>About Us</NavDropdown.Item></AnchorLink>
-                            <AnchorLink href='#contactus'><NavDropdown.Item href="/acm-iith/#/contact">Contact  Us</NavDropdown.Item></AnchorLink>
+                        <Nav.Link href="/acm-iith/#">Home</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/about">About Us</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/events">Events</Nav.Link>
+                        
+                        <NavDropdown title="Interest Groups" style={{marginLeft: '10px'}} drop="left" id="basic-nav-dropdown">
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</NavDropdown.Item>
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/info/systems-and-network">Systems and Network</NavDropdown.Item>
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/info/theoretical-cs">Theoretical CS</NavDropdown.Item>
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/info/women-in-cs">Women in CS</NavDropdown.Item>
+                        </NavDropdown>
+                        
+                        <NavDropdown title="Resources" style={{marginLeft: '10px'}} drop="left" id="basic-nav-dropdown">
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/Posts">Posts</NavDropdown.Item>
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/Projects">Projects</NavDropdown.Item>
+                            <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/Publications">Publications</NavDropdown.Item>
+                        </NavDropdown>
+                        
+                        <Nav.Link href="#contactus">Contact Us</Nav.Link>
+                        <a href="/acm-iith/#/joinus"><button class="button"><span>Become a Member</span></button></a>
                         </NavDropdown>
                     </div>
                     </div>
