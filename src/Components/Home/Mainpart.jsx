@@ -79,6 +79,7 @@ function Mainpart() {
                 <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum</p>
                 <br />
             </div>
+            <div className="col-md-1"></div>
             <div class="col-md">
                 <br />
                 <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;News</a>

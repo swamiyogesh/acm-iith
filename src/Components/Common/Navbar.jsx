@@ -14,7 +14,7 @@ function Navbar()   {
                      <div className="container">
                      <a className="navbar-brand" href="/acm-iith/#" >
                         <span>
-                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "25%", width:"25%"}}  alt=" " />
+                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "25%", width:"25%", marginLeft: "2%"}}  alt=" " />
                         {/* &nbsp;&nbsp; */}
                         {/* <img src = {require('../../assets/images/acm.png')} style={{height: "6%", width:"6%"}}  alt=" " /> */}
                         </span>
