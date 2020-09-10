@@ -23,7 +23,7 @@ function Navbar({ props })   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "-20%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft: "-28%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
