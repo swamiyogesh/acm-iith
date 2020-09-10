@@ -10,16 +10,16 @@ function Mainpart() {
             <br /><br />
             <div className="container">
             <BrowserView>
-            <p className="h60" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT Hyderabad ACM Student &nbsp;Chapter</p>
+            <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT Hyderabad ACM Student Chapter</p>
             </BrowserView>
             <MobileView>
             <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT &nbsp;Hyderabad &nbsp;ACM &nbsp;Student &nbsp;Chapter</p>
             </MobileView>
             <br />
             <div className="row">
-                    <div class="col-md-2">
+                    {/* <div class="col-md-2">
                         <BrowserView><img src = {require('../../assets/images/logo.jpg')} style={{height: "90%", width:"110%"}}  alt=" " /></BrowserView>
-                    </div>
+                    </div> */}
                     
                     <div class="col-md">
                         <br />
@@ -30,7 +30,8 @@ function Mainpart() {
                             It allows students from graduate and undergraduate
                             backgrounds to interact, network and learn both technical
                             and research aligned skills.
-                            <a href="/acm-iith/#/about">&nbsp;Know more.</a>
+                            IIT Hyderabad ACM student chapter has been officially...
+                            <a href="/acm-iith/#/about">&nbsp;Know more about us.</a>
                         </p>
                     </div>
                     
@@ -54,7 +55,7 @@ function Mainpart() {
                 {/* </div>                    
                 </div> */}
 
-                <hr style={{backgroundColor: "black"}} />
+                <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
                 <br />
 
 
@@ -66,29 +67,29 @@ function Mainpart() {
                 <div className="row">
             <div class="col-md">
                 <br />
-                <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>Upcoming Events</a>
+                <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Upcoming Events</a>
                 <br /><br />
-                <p><i class="fa fa-edit"></i><b> We are now live!</b></p>
+                <p><b> We are now live!</b></p>
                 <p>Check us out at acm.iith.ac.in soon!</p>
-                <p><i class="fa fa-edit"></i><b> Paper1!</b></p>
+                <p><b> Paper1!</b></p>
                 <p>Check us out at acm.iith.ac.in soon!</p>
-                <p><i class="fa fa-edit"></i><b> Paper2!</b></p>
+                <p><b> Paper2!</b></p>
                 <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem EpsumLorem Epsum</p>
-                <p><i class="fa fa-edit"></i><b> xyz!</b></p>
+                <p><b> xyz!</b></p>
                 <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum</p>
                 <br />
             </div>
             <div class="col-md">
                 <br />
-                <a class="p30" style={{color: 'black', textDecoration: 'none', borderBottom:'3px solid #3074b7', top: '50%'}}>News</a>
+                <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;News</a>
                 <br /><br />
-                <p><i class="fa fa-bullhorn"></i><b> Chapter Started!</b></p>
+                <p><b> Chapter Started!</b></p>
                 <p>IIT Hyderabad ACM Student Chapter officially chartered on 31-08-2020</p>
-                <p><i class="fa fa-bullhorn"></i><b> Honoiurable mention to team</b></p>
+                <p><b> Honoiurable mention to team</b></p>
                 <p>Lorem Epsum Event is gonna be awesome.</p>
-                <p><i class="fa fa-bullhorn"></i><b> Inauguration</b></p>
+                <p><b> Inauguration</b></p>
                 <p>Lorem Epsum Event is gonna be awesome.</p>
-                <p><i class="fa fa-bullhorn"></i><b> Honourable mention to team</b></p>
+                <p><b> Honourable mention to team</b></p>
                 <p>Lorem Epsum Event is gonna be awesome.</p>
                 <a href="/acm-iith/#/news"><u>See all</u></a>
             </div>

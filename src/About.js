@@ -12,21 +12,20 @@ function About()   {
             <div className="container">
                 <br /><br />
                 <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;About Us</p>
-                <br /><br />
-                <a className="h22" style={{color: 'black', textDecoration: 'none', borderBottom: '3px solid #479ff8', top: '50%'}}>About Us</a>
-                <br /><br />
-                <p className="p20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIT Hyderabad ACM student chapter has been officially chartered on 31st August, 2020 under the shelter of department of Computer Science and Engineering. The chapter will organize events which includes talks by renowned speakers, workshops, etc, allowing the students to gain an exposure in the computing world as well as to understand the advancements happening in computer science worldwide.
-                <br /><br   />
-                <a className="h22" style={{color: 'black', textDecoration: 'none', borderBottom: '3px solid #479ff8', top: '50%'}}>About Us</a>
-                <br /><br />
-                
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. It attempts to create oppurtunities for networking, mentoring and bonding with peers and experts across the computing spectrum.  
-                </p>
                 <br />
-
-                <a href="/acm-iith/#/joinus" style={{fontSize: '24px', color: "#080e2c"}}><b>Computing enthusiast enough? Become a member 👋</b></a>
+                <a className="h22" style={{color: 'black', textDecoration: 'none',  top: '50%'}}>About Us</a>
+                <br />
+                <p className="p20">IIT Hyderabad ACM student chapter has been officially chartered on 31st August, 2020 under the shelter of department of Computer Science and Engineering. The chapter will organize events which includes talks by renowned speakers, workshops, etc, allowing the students to gain an exposure in the computing world as well as to understand the advancements happening in computer science worldwide.
+                <br /><br   />
+                <a className="h22" style={{color: 'black', textDecoration: 'none',  top: '50%'}}>About Us</a>
+                <br />
                 
-                <br /><br /><br /><br />
+                The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. It attempts to create oppurtunities for networking, mentoring and bonding with peers and experts across the computing spectrum.  
+                </p>
+
+                <a href="/acm-iith/#/joinus" style={{fontSize: '24px', color: "#080e2c"}}><b>Computing enthusiast enough? Become a member</b></a>
+                
+                <br /><br /><br /><br /><br /><br />
 
                 <Team />
 
