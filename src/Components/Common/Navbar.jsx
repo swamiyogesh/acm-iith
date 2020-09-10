@@ -14,7 +14,7 @@ function Navbar()   {
                      <div className="container">
                      <a className="navbar-brand" href="/acm-iith/#" >
                         <span>
-                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "15%", width:"15%"}}  alt=" " />
+                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "25%", width:"25%"}}  alt=" " />
                         {/* &nbsp;&nbsp; */}
                         {/* <img src = {require('../../assets/images/acm.png')} style={{height: "6%", width:"6%"}}  alt=" " /> */}
                         </span>
@@ -23,7 +23,7 @@ function Navbar()   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "-28%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft: "-17%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
@@ -50,7 +50,7 @@ function Navbar()   {
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
-                        <a href="/acm-iith/#/joinus"><button class="button"><span>Become a Member</span></button></a>
+                        <a href="/acm-iith/#/joinus"><button class="button"><span style={{fontSize: "18px"}}>Become a Member</span></button></a>
                         </Nav>
                      </span>
                      </div>

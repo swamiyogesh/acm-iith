@@ -10,7 +10,7 @@ function TheoreticalCS()  {
         <div className="TheoreticalCS">
             <Navbar />
             <div className="container">
-                <br /><br />
+                <br /><br /><br />
                 <BrowserView>
                     <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Theoretical Computer Science</p>
                 </BrowserView>

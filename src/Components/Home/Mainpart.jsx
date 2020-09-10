@@ -7,7 +7,7 @@ function Mainpart() {
 
     return (
         <div className="Mainpart">
-            <br /><br />
+            <br /><br /><br />
             <div className="container">
             <BrowserView>
             <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT Hyderabad ACM Student Chapter</p>
@@ -69,13 +69,13 @@ function Mainpart() {
                 <br />
                 <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Upcoming Events</a>
                 <br /><br />
-                <p><b> We are now live!</b></p>
+                <a><b> We are now live!</b></a>
                 <p>Check us out at acm.iith.ac.in soon!</p>
-                <p><b> Paper1!</b></p>
+                <a><b> Paper1!</b></a>
                 <p>Check us out at acm.iith.ac.in soon!</p>
-                <p><b> Paper2!</b></p>
+                <a><b> Paper2!</b></a>
                 <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem EpsumLorem Epsum</p>
-                <p><b> xyz!</b></p>
+                <a><b> xyz!</b></a>
                 <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum</p>
                 <br />
             </div>
@@ -83,13 +83,13 @@ function Mainpart() {
                 <br />
                 <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;News</a>
                 <br /><br />
-                <p><b> Chapter Started!</b></p>
+                <a><b> Chapter Started!</b></a>
                 <p>IIT Hyderabad ACM Student Chapter officially chartered on 31-08-2020</p>
-                <p><b> Honoiurable mention to team</b></p>
+                <a><b> Honoiurable mention to team</b></a>
                 <p>Lorem Epsum Event is gonna be awesome.</p>
-                <p><b> Inauguration</b></p>
+                <a><b> Inauguration</b></a>
                 <p>Lorem Epsum Event is gonna be awesome.</p>
-                <p><b> Honourable mention to team</b></p>
+                <a><b> Honourable mention to team</b></a>
                 <p>Lorem Epsum Event is gonna be awesome.</p>
                 <a href="/acm-iith/#/news"><u>See all</u></a>
             </div>
@@ -98,7 +98,7 @@ function Mainpart() {
             </div>
 
             <br /><br />
-            <hr style={{backgroundColor: "black"}} />
+            <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
             <br /><br />
             <p className="h35" id="contactus" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Contact Us</p>
             <br  />

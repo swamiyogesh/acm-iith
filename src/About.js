@@ -10,7 +10,7 @@ function About()   {
         <div className="About">
             <Navbar />
             <div className="container">
-                <br /><br />
+                <br /><br /><br />
                 <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;About Us</p>
                 <br />
                 <a className="h22" style={{color: 'black', textDecoration: 'none',  top: '50%'}}>About Us</a>
@@ -23,7 +23,7 @@ function About()   {
                 The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. It attempts to create oppurtunities for networking, mentoring and bonding with peers and experts across the computing spectrum.  
                 </p>
 
-                <a href="/acm-iith/#/joinus" style={{fontSize: '24px', color: "#080e2c"}}><b>Computing enthusiast enough? Become a member</b></a>
+                <a href="/acm-iith/#/joinus" style={{fontSize: '24px', color: "#080e2c"}}><b>Computing enthusiast enough? Become a member!</b></a>
                 
                 <br /><br /><br /><br /><br /><br />
 

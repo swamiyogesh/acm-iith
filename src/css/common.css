@@ -20,14 +20,14 @@ body {
 }
 .navbar-brand {
     color: #000 !important;
-    font-weight: 700;
+    font-weight: 100;
 }
 .navbar a {
     color: #000;
 }
 .navbar .right-links a {
-    margin-left: 15px;
-    font-size: 15px;
+    margin-left:0px;
+    font-size: 18px;
 }
 .navbar .right-links a:hover {
     color: #080e2c;
