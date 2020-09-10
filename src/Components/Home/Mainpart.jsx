@@ -104,7 +104,7 @@ function Mainpart() {
             <div className="primaryContainer" style={{borderRadius: '15px', textAlign: 'center'}}>
                     <p class="h35" style={{color: "black"}}>Shoot us an email at the address below to get in touch!</p>
                     <br />
-                    <a class="p30" href="mailto: acm.iit@gmail.com" style={{color: '#3074b7', fontSize: '20px'}}>acm.iit@gmail.com</a>
+                    <a class="p30" href="mailto: acm.iit@gmail.com" style={{color: '#3074b7', fontSize: '20px'}}>acm.iith@gmail.com</a>
             </div>
 
 
