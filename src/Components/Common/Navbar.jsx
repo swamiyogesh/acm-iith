@@ -23,7 +23,7 @@ function Navbar({ props })   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "-17%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft: "-20%"}}>
                          {/* <a href="/events">Events</a> */}
                          {/* <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
@@ -44,9 +44,9 @@ function Navbar({ props })   {
                         </NavDropdown>
                         
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/Projects" style={props==='Projects' ? {color: "grey"} : null}>Projects</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/Publications" style={props==='Publications' ? {color: "grey"} : null}>Publications</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item>
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
