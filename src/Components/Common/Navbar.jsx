@@ -14,7 +14,7 @@ function Navbar({ props })   {
                      <div className="container">
                      <a className="navbar-brand" href="/acm-iith/#" >
                         <span>
-                        <img src = {require('../../assets/images/logo.jpg')} style={{height: "25%", width:"25%", marginLeft: "2%"}}  alt=" " />
+                        <img src = {require('../../assets/images/logo-3.jpg')} style={{height: "15%", width:"15%", marginLeft: "2%"}}  alt=" " />
                         {/* &nbsp;&nbsp; */}
                         {/* <img src = {require('../../assets/images/acm.png')} style={{height: "6%", width:"6%"}}  alt=" " /> */}
                         </span>
@@ -23,7 +23,7 @@ function Navbar({ props })   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft: "-28%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft:"-60%"}}>
                          {/* <a href="/events">Events</a>
                          <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}

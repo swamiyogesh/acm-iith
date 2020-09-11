@@ -13,14 +13,9 @@ function Team()   {
             <br /><br />
             <div className="row">
                 <div className="col-md">
-                    <div className="primaryContainer" style={{borderRadius: "100%", width: "30%", height:"40%"}}>
-                        {/* <center>
-                            <p className="h22">Name</p>
-                            <p className="p15">Lorem Epsum!</p>
-                             <br /><br /><br /><br />
-                        </center> */}
-                        {/* <br /><br /><br /> */}
-                    </div>
+                    {/* <img src={require('./assets/images/iith.png')} style={{borderRadius: "50%", width: "20%", height: "20%"}} /> */}
+
+
                 </div>
                 <div className="col-md">
                     <div className="primaryContainer">
