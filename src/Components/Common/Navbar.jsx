@@ -23,7 +23,7 @@ function Navbar({ props })   {
                      <span className="navbar-toggler-icon"></span>
                      </button>
                      <div className="collapse navbar-collapse" id="navbarText">
-                     <span className="navbar-text right-links" style={{marginLeft:"-60%"}}>
+                     <span className="navbar-text right-links" style={{marginLeft:"-44%"}}>
                          {/* <a href="/events">Events</a>
                          <a href="/blogs">Blog</a> */}
                          {/* <a href="/team">Team</a> */}
@@ -50,7 +50,7 @@ function Navbar({ props })   {
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
-                        <a href="/acm-iith/#/joinus"><button class="button"><span style={{fontSize: "18px"}}>Become a Member</span></button></a>
+                        <a href="/acm-iith/#/joinus"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
                         </Nav>
                      </span>
                      </div>
