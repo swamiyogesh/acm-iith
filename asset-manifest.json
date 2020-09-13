@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/acm-iith/static/css/main.4af24a8d.chunk.css",
+    "main.css": "/acm-iith/static/css/main.116103ce.chunk.css",
     "main.js": "/acm-iith/static/js/main.33edd450.chunk.js",
     "main.js.map": "/acm-iith/static/js/main.33edd450.chunk.js.map",
     "runtime-main.js": "/acm-iith/static/js/runtime-main.96d9de5d.js",
@@ -8,9 +8,9 @@
     "static/js/2.e1f266c5.chunk.js": "/acm-iith/static/js/2.e1f266c5.chunk.js",
     "static/js/2.e1f266c5.chunk.js.map": "/acm-iith/static/js/2.e1f266c5.chunk.js.map",
     "index.html": "/acm-iith/index.html",
-    "precache-manifest.b45d266ecc86fc4366474aa0f349ab1b.js": "/acm-iith/precache-manifest.b45d266ecc86fc4366474aa0f349ab1b.js",
+    "precache-manifest.91997bb6e3fee2980578b8f60367da64.js": "/acm-iith/precache-manifest.91997bb6e3fee2980578b8f60367da64.js",
     "service-worker.js": "/acm-iith/service-worker.js",
-    "static/css/main.4af24a8d.chunk.css.map": "/acm-iith/static/css/main.4af24a8d.chunk.css.map",
+    "static/css/main.116103ce.chunk.css.map": "/acm-iith/static/css/main.116103ce.chunk.css.map",
     "static/js/2.e1f266c5.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.e1f266c5.chunk.js.LICENSE.txt",
     "static/media/acm.png": "/acm-iith/static/media/acm.f395300f.png",
     "static/media/iith.png": "/acm-iith/static/media/iith.045c4a23.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.96d9de5d.js",
     "static/js/2.e1f266c5.chunk.js",
-    "static/css/main.4af24a8d.chunk.css",
+    "static/css/main.116103ce.chunk.css",
     "static/js/main.33edd450.chunk.js"
   ]
 }
