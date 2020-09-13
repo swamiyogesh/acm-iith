@@ -4,8 +4,9 @@ import './css/common.css';
 import './css/join.css';
 
 function Joinus()  {
+    // backgroundImage: "-moz-linear-gradient( 136deg, #479ff8, #fff)"
     return (
-        <div className="Joinus" style={{backgroundImage: "-moz-linear-gradient( 136deg, #479ff8, #fff)"}}>
+        <div className="Joinus" style={{backgroundColor:  "#F0F8FF", height: "100vh"}}>
                 
             
             <div class="page-content">
@@ -31,9 +32,7 @@ function Joinus()  {
                                                                         <p>-Provide rating and review to evaluate laundry shops</p>
                                                                         <p>-Online ordering and laundry service</p>
 								         <p>-Provide search service</p>
-                                                                         <p>-Managing logistics to processorders</p>
-                                                                         <p>-Collecting laundry shop information</p>
-                                                                          <p>-Creating and managing technology infrastructure</p>
+                                                                         <p>-Managing logistics to processorders</p><br /><br />
 								</div>
 							</div>
 			            </section>
@@ -87,7 +86,7 @@ function Joinus()  {
 
 									</div>
 								</div>
-
+                                <br />
 							</div>
 			            </section>
 
@@ -98,7 +97,6 @@ function Joinus()  {
 	</div>
 
 
-        <br /><br /><br /><br /><br /><br />
         </div>
     )
 }
