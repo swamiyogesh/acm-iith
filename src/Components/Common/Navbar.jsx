@@ -50,7 +50,7 @@ function Navbar({ props })   {
                         </NavDropdown>
 
                         <Nav.Link href="#contactus">Contact Us</Nav.Link>
-                        <a href="/acm-iith/#/joinus"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
+                        <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
                         </Nav>
                      </span>
                      </div>

@@ -22,7 +22,7 @@ If you’re working on exciting research projects and would like to present your
                 The chapter aims at bringing together computer fraternity and cultivate the research and development oriented skills among students. It attempts to create oppurtunities for networking, mentoring and bonding with peers and experts across the computing spectrum.
                 </p>
 
-                <a href="/acm-iith/#/joinus" style={{fontSize: '24px', color: "#080e2c"}}><b>Computing enthusiast enough? Become a member!</b></a>
+                <a href="/acm-iith/#/joinus" target="_blank" style={{fontSize: '24px', color: "#080e2c"}}><b>Computing enthusiast enough? Become a member!</b></a>
                 
                 <br /><br /><br /><br /><br /><br />
 

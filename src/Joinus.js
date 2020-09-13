@@ -1,73 +1,104 @@
 import React from 'react'
 import './css/style.css';
 import './css/common.css';
-import Navbar from './Components/Common/Navbar'
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& .MuiTextField-root': {
-      margin: theme.spacing(1),
-      width: '25ch',
-    },
-  },
-}));
+import './css/join.css';
 
 function Joinus()  {
-    const classes = useStyles();
     return (
-        <div className="Joinus">
-            <Navbar />
-            <div className="container">
-                <br /><br /><br />
-                <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Join Us</p>
-                <br /><br />
-                <form className={classes.root} noValidate autoComplete="off">
-                <div>
-                <TextField
-                style={{width: '100%'}}
-                id="outlined-email-input"
-                label="Email"
-                type="email"
-                variant="outlined"
-                />
-                <br />
-                <TextField
-                style={{width: '100%'}}
-                id="outlined-pnumber-input"
-                label="Phone Number"
-                type="number"
-                variant="outlined"
-                />
-                <br />
-                <TextField
-                style={{width: '100%'}}
-                multiline={true}
-                id="outlined-project-input"
-                label="Projects Link"
-                type="text"
-                variant="outlined"
-                />
-                <br />
-                <TextField
-                style={{width: '100%'}}
-                multiline={true}
-                id="outlined-idea-input"
-                label="Your Ideas"
-                type="text"
-                variant="outlined"
-                />
-                <br />
-                <br /><br />
-                <center><Button variant="outlined" color="primary">
-                    Submit!
-                </Button></center>
-                </div>
-                </form>
+        <div className="Joinus" style={{backgroundImage: "-moz-linear-gradient( 136deg, #479ff8, #fff)"}}>
+                
+            
+            <div class="page-content">
+		    <div class="form-v1-content">
+			<div class="wizard-form">
+		        <form class="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		
+			            <h2>
+			            	<p class="step-icon" style={{marginTop: "6%"}}><span>01</span></p>
+			            	<span class="step-text">Value proposition</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+                                            <div class="wizard-header" style={{padding: "7%"}}>
+                                            <h5>Become a IIT Hyderabad ACM Student Chapter member!</h5></div>
+			                	<div class="form-holder">
 
-            </div>
+
+									<p>-One stop shop for laundry </p>
+                                                                        <p>-Allow Laundromats to stand out</p>
+                                                                        <p>-Bridging the gaps between customer and laundry shops</p>
+                                                                        <p>-Provide rating and review to evaluate laundry shops</p>
+                                                                        <p>-Online ordering and laundry service</p>
+								         <p>-Provide search service</p>
+                                                                         <p>-Managing logistics to processorders</p>
+                                                                         <p>-Collecting laundry shop information</p>
+                                                                          <p>-Creating and managing technology infrastructure</p>
+								</div>
+							</div>
+			            </section>
+                                    
+			            <h2>
+			            	<p class="step-icon" style={{marginTop: "6%"}}><span>02</span></p>
+			            	<span class="step-text">Personal Information</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header" style={{padding: "7%"}}>
+
+									<h5>Please enter your infomation and proceed .  </h5>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>First Name</legend>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" required  />
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>Last Name</legend>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" required  />
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Your Email</legend>
+											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="example@email.com" required />
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Phone Number</legend>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="+91 9xxxxxxxxx" required />
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row form-row-date">
+									<div class="form-holder form-holder-2">
+										<legend>Shop / Company / Individual name:<br></br></legend>
+                                                                      <fieldset>
+                                                                     <input type="text" class="form-control" id="details" name="details" placeholder="Write your option here" required />
+									</fieldset>
+
+									</div>
+								</div>
+
+							</div>
+			            </section>
+
+		        	</div>
+		        </form>
+			</div>
+        </div>
+	</div>
+
+
+        <br /><br /><br /><br /><br /><br />
         </div>
     )
 }
