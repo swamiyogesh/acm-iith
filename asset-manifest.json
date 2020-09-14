@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/acm-iith/static/css/main.2bc57ceb.chunk.css",
-    "main.js": "/acm-iith/static/js/main.782e5704.chunk.js",
-    "main.js.map": "/acm-iith/static/js/main.782e5704.chunk.js.map",
+    "main.css": "/acm-iith/static/css/main.ac13254d.chunk.css",
+    "main.js": "/acm-iith/static/js/main.58f4ef33.chunk.js",
+    "main.js.map": "/acm-iith/static/js/main.58f4ef33.chunk.js.map",
     "runtime-main.js": "/acm-iith/static/js/runtime-main.96d9de5d.js",
     "runtime-main.js.map": "/acm-iith/static/js/runtime-main.96d9de5d.js.map",
-    "static/js/2.e1f266c5.chunk.js": "/acm-iith/static/js/2.e1f266c5.chunk.js",
-    "static/js/2.e1f266c5.chunk.js.map": "/acm-iith/static/js/2.e1f266c5.chunk.js.map",
+    "static/css/2.d34346ea.chunk.css": "/acm-iith/static/css/2.d34346ea.chunk.css",
+    "static/js/2.10c27a43.chunk.js": "/acm-iith/static/js/2.10c27a43.chunk.js",
+    "static/js/2.10c27a43.chunk.js.map": "/acm-iith/static/js/2.10c27a43.chunk.js.map",
     "index.html": "/acm-iith/index.html",
-    "precache-manifest.d92a81f7a0bce83709b7e3ace44b31c3.js": "/acm-iith/precache-manifest.d92a81f7a0bce83709b7e3ace44b31c3.js",
+    "precache-manifest.b51b5c60cde55a9d133502c15b53463f.js": "/acm-iith/precache-manifest.b51b5c60cde55a9d133502c15b53463f.js",
     "service-worker.js": "/acm-iith/service-worker.js",
-    "static/css/main.2bc57ceb.chunk.css.map": "/acm-iith/static/css/main.2bc57ceb.chunk.css.map",
-    "static/js/2.e1f266c5.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.e1f266c5.chunk.js.LICENSE.txt",
+    "static/css/2.d34346ea.chunk.css.map": "/acm-iith/static/css/2.d34346ea.chunk.css.map",
+    "static/css/main.ac13254d.chunk.css.map": "/acm-iith/static/css/main.ac13254d.chunk.css.map",
+    "static/js/2.10c27a43.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.10c27a43.chunk.js.LICENSE.txt",
     "static/media/acm.png": "/acm-iith/static/media/acm.f395300f.png",
     "static/media/iith.png": "/acm-iith/static/media/iith.045c4a23.png",
     "static/media/logo-3.jpg": "/acm-iith/static/media/logo-3.29d99a00.jpg",
@@ -19,8 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.96d9de5d.js",
-    "static/js/2.e1f266c5.chunk.js",
-    "static/css/main.2bc57ceb.chunk.css",
-    "static/js/main.782e5704.chunk.js"
+    "static/css/2.d34346ea.chunk.css",
+    "static/js/2.10c27a43.chunk.js",
+    "static/css/main.ac13254d.chunk.css",
+    "static/js/main.58f4ef33.chunk.js"
   ]
 }
