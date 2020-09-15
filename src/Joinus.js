@@ -30,15 +30,16 @@ function Joinus()  {
                             <Form />
                             :
                             <div className="container" style={{color: "#fff", paddingRight: '5%', paddingTop: "1.5%"}}>
+                                <br />
                                 <p className="h30" style={{color: "#48a6f9", paddingLeft: "10%"}}>Become a Member!</p><br />
-                                <p className="p16" style={{color: "#080e2c", paddingLeft: '10%'}}>- Chapter members are eligible for an “acm.org” email forwarding address with filtering.</p>
-                                <p className="p16" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members get a full-year electronic subscription to XRDS, ACM's Student Magazine</p>
-                                <p className="p16" style={{color: "#080e2c", paddingLeft: '10%'}}>- Chapter Members are eligible for a three-month complimentary electronic subscription to ACM’s flagship publication Communications of the ACM.</p>
-                                <p className="p16" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members receive ACM's Popular E-Newsletters, TechNews, CareerNews and MemberNet</p>
-                                <p className="p16" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members get access to ACM Student Quick Takes (SQT), a quarterly email newsletter with each issue highlighting ACM activities, programs, and offerings of interest.</p>
-                                <p className="p16" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members get to participate in logistics of events.</p><br />
+                                <p className="p15" style={{color: "#080e2c", paddingLeft: '10%'}}>- Chapter members are eligible for an “acm.org” email forwarding address with filtering.</p>
+                                <p className="p15" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members get a full-year electronic subscription to XRDS, ACM's Student Magazine</p>
+                                <p className="p15" style={{color: "#080e2c", paddingLeft: '10%'}}>- Chapter Members are eligible for a three-month complimentary electronic subscription to ACM’s flagship publication Communications of the ACM.</p>
+                                <p className="p15" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members receive ACM's Popular E-Newsletters, TechNews, CareerNews and MemberNet</p>
+                                <p className="p15" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members get access to ACM Student Quick Takes (SQT), a quarterly email newsletter with each issue highlighting ACM activities, programs, and offerings of interest.</p>
+                                <p className="p15" style={{color: "#080e2c", paddingLeft: '10%'}}>- Members get to participate in logistics of events.</p><br />
                                 <a className="h40" style={{marginLeft: "90%", cursor: "pointer", color: "#48a6f9"}} onClick={toggleTrue}><img src="https://img.icons8.com/flat_round/50/000000/arrow-right.png"/></a>
-                                <br /><br />
+                                <br /><br /><br />
                             </div>
                         
                         }

@@ -34,7 +34,7 @@ function Form()  {
 			<div className="container">
 			<ToastContainer />
 						<br /><br />
-						<form className="container" style={{paddingLeft: "5%"}} onSubmit={() => appendSpreadsheet(formData)}>
+						<form className="container" style={{paddingLeft: "10%"}} onSubmit={() => appendSpreadsheet(formData)}>
 							<p className="h22">Name</p>
 							<input className = "primaryInput" type="text" value={name} onChange={handleChange('name')} placeholder="Add Name " /><br /><br />
 
