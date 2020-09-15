@@ -20,7 +20,7 @@ function Joinus()  {
 				<div className="primaryContainer">
 					<div style={{width: '30%', backgroundColor: '#2b547e', float: 'left', borderRadius: "15px 0px 0px 15px"}}>
                         <br />
-						<a className="p16" onClick={toggleFalse} style={{color: "#fff", padding: "10%", cursor: "pointer"}}>{flag ? <img src="https://img.icons8.com/color/48/000000/1-circle--v1.png"/> : <img src="https://img.icons8.com/color/48/000000/1-circle-c--v1.png"/>}&nbsp;&nbsp;Value proposition</a>
+						<a className="p16" onClick={toggleFalse} style={{color: "#fff", padding: "10%", cursor: "pointer"}}>{flag ? <img src="https://img.icons8.com/color/48/000000/1-circle--v1.png"/> : <img src="https://img.icons8.com/color/48/000000/1-circle-c--v1.png"/>}&nbsp;&nbsp;Member Benefits</a>
                         <hr style={{backgroundColor: "#CCC"}} />
 						<a className="p16" onClick={toggleTrue} style={{color: "#fff", paddingLeft: "10%", paddingTop: "6%", paddingBottom: "5%", cursor: "pointer"}}>{!flag ? <img src="https://img.icons8.com/color/48/000000/2-circle--v1.png"/> : <img src="https://img.icons8.com/color/48/000000/2-circle-c--v1.png"/>}&nbsp;&nbsp;Register</a>
 						<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
