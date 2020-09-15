@@ -14,6 +14,7 @@ import Projects from './Resources/Projects'
 import Posts from './Resources/Posts'
 import Publications from './Resources/Publications'
 import Joinus from './Joinus'
+import JoinusOld from './JoinusOld'
 
 ReactDOM.render(
   <HashRouter>
@@ -31,6 +32,7 @@ ReactDOM.render(
       <Route path='/Posts' exact render={props => <Posts {...props} />}/>
       <Route path='/Publications' exact render={props => <Publications {...props} />}/>
       <Route path='/joinus' exact render={props => <Joinus {...props} />}/>
+      <Route path='/joinusold' exact render={props => <JoinusOld {...props} />}/>
       <App />
     </Switch>
   </HashRouter>,
