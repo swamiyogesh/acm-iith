@@ -39,19 +39,19 @@ function Navbar({ props })   {
                          <Nav className="mr-auto">
                          <Nav.Link href="/acm-iith/#" onClick={toggleNeg} style={(props==='Home' && !status) ? {color: "grey"} : null}>Home</Nav.Link>
                         <Nav.Link href="/acm-iith/#/about" style={props==='About' ? {color: "grey"} : null}>About Us</Nav.Link>
-                        <Nav.Link href="/acm-iith/#/events" style={props==='Events' ? {color: "grey"} : null}>Events</Nav.Link>
+                        {/* <Nav.Link href="/acm-iith/#/events" style={props==='Events' ? {color: "grey"} : null}>Events</Nav.Link> */}
                         
                         <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence" style={props==='MI' ? {color: "grey"} : null}>Machine Intelligence</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/systems-and-network" style={props==='SN' ? {color: "grey"} : null}>Systems and Network</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs" style={props==='TCS' ? {color: "grey"} : null}>Theoretical CS</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="/acm-iith/#/info/systems-and-network" style={props==='SN' ? {color: "grey"} : null}>Systems and Network</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs" style={props==='TCS' ? {color: "grey"} : null}>Theoretical CS</NavDropdown.Item> */}
                             <NavDropdown.Item href="/acm-iith/#/info/women-in-cs" style={props==='WCS' ? {color: "grey"} : null}>Women in CS</NavDropdown.Item>
                         </NavDropdown>
                         
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/Projects" style={props==='Projects' ? {color: "grey"} : null}>Projects</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="/acm-iith/#/Projects" style={props==='Projects' ? {color: "grey"} : null}>Projects</NavDropdown.Item> */}
                             <NavDropdown.Item href="/acm-iith/#/Publications" style={props==='Publications' ? {color: "grey"} : null}>Publications</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item> */}
                         </NavDropdown>
                         
                         {
