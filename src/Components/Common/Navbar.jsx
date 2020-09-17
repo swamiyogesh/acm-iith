@@ -53,8 +53,14 @@ function Navbar({ props })   {
                             <NavDropdown.Item href="/acm-iith/#/Publications" style={props==='Publications' ? {color: "grey"} : null}>Publications</NavDropdown.Item>
                             <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item>
                         </NavDropdown>
+                        
+                        {
+                            props==='Home'  ?
+                            <Nav.Link><AnchorLink href="#contactus" onClick={togglePos} style={(props==='Home' && status) ? {color: "grey"} : null}>Contact Us</AnchorLink></Nav.Link>
+                            :
+                            <Nav.Link href="#contactus" onClick={togglePos} style={(props==='Home' && status) ? {color: "grey"} : null}>Contact Us</Nav.Link>
+                        }
 
-                        <Nav.Link><AnchorLink href="#contactus" onClick={togglePos} style={(props==='Home' && status) ? {color: "grey"} : null}>Contact Us</AnchorLink></Nav.Link>
                         <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
                         </Nav>
                      </span>
