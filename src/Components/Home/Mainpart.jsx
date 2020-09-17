@@ -23,13 +23,7 @@ function Mainpart() {
                     
                     <div class="col-md">
                         <br />
-                        <p id="aboutus" className="p20" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official
-                            non profit student chapter of the Association of Computing 
-                            Machinery(ACM). It aims at uniting students with an 
-                            interest in Computer Science. 
-                            It allows students from graduate and undergraduate
-                            backgrounds to interact, network and learn both technical
-                            and research aligned skills.
+                        <p id="aboutus" className="p20" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official non profit student chapter of the Association of Computing Machinery(ACM). It aims at uniting students with an interest in Computer Science. It sanctions students from graduate and undergraduate backgrounds to interact, network and learn both technical and research aligned skills.
                             IIT Hyderabad ACM student chapter has been officially...
                             <a href="/acm-iith/#/about">&nbsp;Know more about us.</a>
                         </p>

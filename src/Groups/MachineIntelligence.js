@@ -17,9 +17,7 @@ function MachineIntelligence()  {
                     <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Machine &nbsp;Intelligence</p>
                 </MobileView>
                 <br /><br />
-                <p className="p20">Machine Intelligence Group is a part of ACM IIT Hyderabad Student Chapter, focusing on research and applications in areas like Computer Vision, Natural Language and Data Mining. 
-We aim to build a strong machine learning community at IIT Hyderabad, by organising weekely paper discussions, providing a mentoring platform to beginner minds and collaborating on hot research projects with aim to publish them in top conferences/journals.
-We actively look forward to interactive and collaborative opportunities, so, please drop us a mail if your interested.</p>
+                <p className="p20">Machine Intelligence Group is a component of ACM IIT Hyderabad Student Chapter, fixating on research and applications in areas like Computer Vision, Natural Language and Data Mining. We aim to build a vigorous machine learning community at IIT Hyderabad, by organizing weekly paper discussions, providing a mentoring platform to tyro minds and collaborating on sultry research projects with aim to publish them in top conferences/journals. We actively look forward to interactive and collaborative opportunities, so, please drop us a mail if your fascinated.</p>
             </div>
 
 
