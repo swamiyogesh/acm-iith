@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../css/style.css';
 import '../../css/common.css';
 import { BrowserView, MobileView } from 'react-device-detect'
@@ -6,6 +6,11 @@ import  { NavDropdown,  Nav } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navbar({ props })   {
+
+    const [status, setStatus] = useState(false)
+
+    const togglePos = () => { setStatus(true) }
+    const toggleNeg = () => { setStatus(false) }
 
     return (
         <div className="Navbar">
@@ -32,7 +37,7 @@ function Navbar({ props })   {
                          <AnchorLink href='#contactus'><a >Contact Us</a></AnchorLink> */}
 
                          <Nav className="mr-auto">
-                         <Nav.Link href="/acm-iith/#" style={props==='Home' ? {color: "grey"} : null}>Home</Nav.Link>
+                         <Nav.Link href="/acm-iith/#" onClick={toggleNeg} style={(props==='Home' && !status) ? {color: "grey"} : null}>Home</Nav.Link>
                         <Nav.Link href="/acm-iith/#/about" style={props==='About' ? {color: "grey"} : null}>About Us</Nav.Link>
                         <Nav.Link href="/acm-iith/#/events" style={props==='Events' ? {color: "grey"} : null}>Events</Nav.Link>
                         
@@ -49,7 +54,7 @@ function Navbar({ props })   {
                             <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Nav.Link href="#contactus">Contact Us</Nav.Link>
+                        <Nav.Link><AnchorLink href="#contactus" onClick={togglePos} style={(props==='Home' && status) ? {color: "grey"} : null}>Contact Us</AnchorLink></Nav.Link>
                         <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
                         </Nav>
                      </span>
