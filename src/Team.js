@@ -26,7 +26,7 @@ function Team()   {
                             <img src={require("./assets/images/surgan.jpg")} style={{borderRadius:"100%",width: "50%",  padding: "2%"}} />
                             <br />
                             <p className="h22">Surgan Jandial</p>
-                            <p className="p15">Chairman</p>
+                            <p className="p15">Chair</p>
                             <br /><br />
                         </center>
                     {/* </div> */}
@@ -37,24 +37,13 @@ function Team()   {
                             <img src={require("./assets/images/chaitanya.jpg")} style={{borderRadius:"100%",width: "50%",  padding: "2%"}} />
                             <br />
                             <p className="h22">Chaitanya Devaguptapu</p>
-                            <p className="p15">Vice Chairman</p>
+                            <p className="p15">Vice Chair</p>
                             <br /><br />
                         </center>
                     {/* </div> */}
                 </div>
             </div>
             <div className="row">
-                <div className="col-md">
-                    {/* <div className="primaryContainer"> */}
-                        <center>
-                            <img src={require("./assets/images/puneet.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
-                            <br />
-                            <p className="h22">Puneet Mangla</p>
-                            <p className="p15">Machine Intelligence Head</p>
-                            <br /><br />
-                        </center>
-                    {/* </div> */}
-                </div>
                 <div className="col-md">
                     {/* <div className="primaryContainer"> */}
                         <center>
@@ -77,6 +66,17 @@ function Team()   {
                         </center>
                     {/* </div> */}
                 </div>
+                <div className="col-md">
+                    {/* <div className="primaryContainer"> */}
+                    <center>
+                        <img src={require("./assets/images/deeptanshu.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Deeptanshu Sankhwar</p>
+                        <p className="p15">Outreach Lead</p>
+                        <br /><br />
+                    </center>
+                    {/* </div> */}
+                </div>
             </div>
             <div className="row">
                 <div className="col-md">
@@ -89,13 +89,13 @@ function Team()   {
                     </center>
                 </div>
                 <div className="col-md">
-                    <center>
+                    {/* <center>
                         <img src={require("./assets/images/deeptanshu.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
                         <br />
                         <p className="h22">Deeptanshu Sankhwar</p>
                         <p className="p15">Outreach Lead</p>
                         <br /><br />
-                    </center>
+                    </center> */}
                 </div>
                 <div className="col-md">
                     <center>
