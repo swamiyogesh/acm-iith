@@ -1,29 +1,36 @@
 {
   "files": {
     "main.css": "/acm-iith/static/css/main.056ebf52.chunk.css",
-    "main.js": "/acm-iith/static/js/main.51464a97.chunk.js",
-    "main.js.map": "/acm-iith/static/js/main.51464a97.chunk.js.map",
+    "main.js": "/acm-iith/static/js/main.d5b0e223.chunk.js",
+    "main.js.map": "/acm-iith/static/js/main.d5b0e223.chunk.js.map",
     "runtime-main.js": "/acm-iith/static/js/runtime-main.96d9de5d.js",
     "runtime-main.js.map": "/acm-iith/static/js/runtime-main.96d9de5d.js.map",
     "static/css/2.d34346ea.chunk.css": "/acm-iith/static/css/2.d34346ea.chunk.css",
-    "static/js/2.6bef76c7.chunk.js": "/acm-iith/static/js/2.6bef76c7.chunk.js",
-    "static/js/2.6bef76c7.chunk.js.map": "/acm-iith/static/js/2.6bef76c7.chunk.js.map",
+    "static/js/2.495e5b94.chunk.js": "/acm-iith/static/js/2.495e5b94.chunk.js",
+    "static/js/2.495e5b94.chunk.js.map": "/acm-iith/static/js/2.495e5b94.chunk.js.map",
     "index.html": "/acm-iith/index.html",
-    "precache-manifest.f9f2446f8f597374e86a1fa56a1bf1e6.js": "/acm-iith/precache-manifest.f9f2446f8f597374e86a1fa56a1bf1e6.js",
+    "precache-manifest.b45963c089334aaaa654acf1a62b31e0.js": "/acm-iith/precache-manifest.b45963c089334aaaa654acf1a62b31e0.js",
     "service-worker.js": "/acm-iith/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/acm-iith/static/css/2.d34346ea.chunk.css.map",
     "static/css/main.056ebf52.chunk.css.map": "/acm-iith/static/css/main.056ebf52.chunk.css.map",
-    "static/js/2.6bef76c7.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.6bef76c7.chunk.js.LICENSE.txt",
+    "static/js/2.495e5b94.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.495e5b94.chunk.js.LICENSE.txt",
     "static/media/acm.png": "/acm-iith/static/media/acm.f395300f.png",
+    "static/media/archana.jpg": "/acm-iith/static/media/archana.ff72bdd1.jpg",
+    "static/media/chaitanya.jpg": "/acm-iith/static/media/chaitanya.be3e5a92.jpg",
+    "static/media/deeptanshu.jpg": "/acm-iith/static/media/deeptanshu.922d2ff1.jpg",
     "static/media/iith.png": "/acm-iith/static/media/iith.045c4a23.png",
     "static/media/logo-3.jpg": "/acm-iith/static/media/logo-3.29d99a00.jpg",
-    "static/media/logo.jpg": "/acm-iith/static/media/logo.82f9cf42.jpg"
+    "static/media/logo.jpg": "/acm-iith/static/media/logo.82f9cf42.jpg",
+    "static/media/puneet.jpg": "/acm-iith/static/media/puneet.7af41676.jpg",
+    "static/media/surgan.jpg": "/acm-iith/static/media/surgan.8bcaaa18.jpg",
+    "static/media/vedant.jpg": "/acm-iith/static/media/vedant.0393e16e.jpg",
+    "static/media/vineeth.jpg": "/acm-iith/static/media/vineeth.592da830.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.96d9de5d.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.6bef76c7.chunk.js",
+    "static/js/2.495e5b94.chunk.js",
     "static/css/main.056ebf52.chunk.css",
-    "static/js/main.51464a97.chunk.js"
+    "static/js/main.d5b0e223.chunk.js"
   ]
 }
