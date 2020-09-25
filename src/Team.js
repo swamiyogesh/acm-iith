@@ -107,6 +107,37 @@ function Team()   {
                     </center>
                 </div>
             </div>
+
+            <a class="p20" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;CS Theoretical</a>
+            <br /><br /><br />
+            <div className="row">
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/roopam.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Roopam Saxena</p>
+                        <br /><br />
+                    </center>
+                </div>
+                <div className="col-md">
+                    {/* <center>
+                        <img src={require("./assets/images/deeptanshu.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Deeptanshu Sankhwar</p>
+                        <br /><br />
+                    </center> */}
+                </div>
+                <div className="col-md">
+                    <center>
+                        {/* <img src={require("./assets/images/vedant.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">CS Archana</p> */}
+                        <br /><br />
+                    </center>
+                </div>
+            </div>
+
+
             <br /><br /><br />
         </div>
     )
