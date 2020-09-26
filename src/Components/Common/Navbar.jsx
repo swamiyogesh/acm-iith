@@ -47,7 +47,7 @@ function Navbar()   {
                             {/* <NavDropdown.Item href="/acm-iith/#/Posts" >Posts</NavDropdown.Item> */}
                         </NavDropdown>
                     
-                        <Nav.Link><AnchorLink href="#contactus" >Contact Us</AnchorLink></Nav.Link>
+                        <Nav.Link href="/acm-iith/src/Components/Home/Mainpart.jsx#contactus" >Contact Us </Nav.Link>
 
                         <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
                         </Nav>
@@ -91,7 +91,7 @@ function Navbar()   {
                             <NavDropdown.Item style={{fontSize: '13px'}} href="/acm-iith/#/Publications">Publications</NavDropdown.Item>
                         </NavDropdown>
                         
-                        <Nav.Link href="#contactus">Contact Us</Nav.Link>
+                        <Nav.Link href="/acm-iith/src/Components/Home/Mainpart.jsx#contactus" >Contact Us </Nav.Link>
                         <a href="/acm-iith/#/joinus"><button class="button"><span>Become a Member</span></button></a>
                         </NavDropdown>
                     </div>
