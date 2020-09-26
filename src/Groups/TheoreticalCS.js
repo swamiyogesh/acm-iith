@@ -8,7 +8,7 @@ import { BrowserView, MobileView } from 'react-device-detect'
 function TheoreticalCS()  {
     return (
         <div className="TheoreticalCS">
-            <Navbar props="TCS" />
+            <Navbar />
             <div className="container">
                 <br /><br /><br />
                 <BrowserView>

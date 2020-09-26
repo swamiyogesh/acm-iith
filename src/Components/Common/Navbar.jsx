@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../../css/style.css';
 import '../../css/common.css';
 import { BrowserView, MobileView } from 'react-device-detect'
 import  { NavDropdown,  Nav } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-function Navbar({ props })   {
-
-    const [status, setStatus] = useState(false)
-
-    const togglePos = () => { setStatus(true) }
-    const toggleNeg = () => { setStatus(false) }
+function Navbar()   {
 
     return (
         <div className="Navbar">
@@ -20,8 +15,6 @@ function Navbar({ props })   {
                      <a className="navbar-brand" href="/acm-iith/#" >
                         <span>
                         <img src = {require('../../assets/images/logo-3.jpg')} style={{height: "15%", width:"15%", marginLeft: "2%"}}  alt=" " />
-                        {/* &nbsp;&nbsp; */}
-                        {/* <img src = {require('../../assets/images/acm.png')} style={{height: "6%", width:"6%"}}  alt=" " /> */}
                         </span>
                      </a>
                      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,29 +30,24 @@ function Navbar({ props })   {
                          <AnchorLink href='#contactus'><a >Contact Us</a></AnchorLink> */}
 
                          <Nav className="mr-auto">
-                         <Nav.Link href="/acm-iith/#" onClick={toggleNeg} style={(props==='Home' && !status) ? {color: "grey"} : null}>Home</Nav.Link>
-                        <Nav.Link href="/acm-iith/#/about" style={props==='About' ? {color: "grey"} : null}>About Us</Nav.Link>
-                        {/* <Nav.Link href="/acm-iith/#/events" style={props==='Events' ? {color: "grey"} : null}>Events</Nav.Link> */}
+                         <Nav.Link href="/acm-iith/#" >Home</Nav.Link>
+                        <Nav.Link href="/acm-iith/#/about" >About Us</Nav.Link>
+                        {/* <Nav.Link href="/acm-iith/#/events" >Events</Nav.Link> */}
                         
                         <NavDropdown title="Interest Groups" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence" style={props==='MI' ? {color: "grey"} : null}>Machine Intelligence</NavDropdown.Item>
-                            {/* <NavDropdown.Item href="/acm-iith/#/info/systems-and-network" style={props==='SN' ? {color: "grey"} : null}>Systems and Network</NavDropdown.Item>
-                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs" style={props==='TCS' ? {color: "grey"} : null}>Theoretical CS</NavDropdown.Item> */}
-                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs" style={props==='WCS' ? {color: "grey"} : null}>Women in CS</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="/acm-iith/#/info/systems-and-network" >Systems and Network</NavDropdown.Item>
+                            <NavDropdown.Item href="/acm-iith/#/info/theoretical-cs" >Theoretical CS</NavDropdown.Item> */}
+                            <NavDropdown.Item href="/acm-iith/#/info/women-in-cs" >Women in CS</NavDropdown.Item>
                         </NavDropdown>
                         
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
-                            {/* <NavDropdown.Item href="/acm-iith/#/Projects" style={props==='Projects' ? {color: "grey"} : null}>Projects</NavDropdown.Item> */}
-                            <NavDropdown.Item href="/acm-iith/#/Publications" style={props==='Publications' ? {color: "grey"} : null}>Publications</NavDropdown.Item>
-                            {/* <NavDropdown.Item href="/acm-iith/#/Posts" style={props==='Posts' ? {color: "grey"} : null}>Posts</NavDropdown.Item> */}
+                            {/* <NavDropdown.Item href="/acm-iith/#/Projects" >Projects</NavDropdown.Item> */}
+                            <NavDropdown.Item href="/acm-iith/#/Publications" >Publications</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="/acm-iith/#/Posts" >Posts</NavDropdown.Item> */}
                         </NavDropdown>
-                        
-                        {
-                            props==='Home'  ?
-                            <Nav.Link><AnchorLink href="#contactus" onClick={togglePos} style={(props==='Home' && status) ? {color: "grey"} : null}>Contact Us</AnchorLink></Nav.Link>
-                            :
-                            <Nav.Link href="#contactus" onClick={togglePos} style={(props==='Home' && status) ? {color: "grey"} : null}>Contact Us</Nav.Link>
-                        }
+                    
+                        <Nav.Link><AnchorLink href="#contactus" >Contact Us</AnchorLink></Nav.Link>
 
                         <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span style={{fontSize: "16px"}}>Become a Member</span></button></a>
                         </Nav>

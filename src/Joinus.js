@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './css/style.css';
 import './css/common.css';
-import './css/join.css';
 import Form from './Form'
 
 function Joinus()  {

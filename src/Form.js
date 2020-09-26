@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './css/style.css';
 import './css/common.css';
-import './css/join.css';
 import { GoogleSpreadsheet } from "google-spreadsheet";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

@@ -7,7 +7,7 @@ import { BrowserView, MobileView } from 'react-device-detect'
 function WomenInCS()  {
     return (
         <div className="WomenInCS">
-            <Navbar props="WCS" />
+            <Navbar  />
             <div className="container">
                 <br /><br /><br />
                 <BrowserView>

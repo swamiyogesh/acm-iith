@@ -7,7 +7,7 @@ import { BrowserView, MobileView } from 'react-device-detect'
 function MachineIntelligence()  {
     return (
         <div className="MachineIntelligence">
-            <Navbar props="MI" />
+            <Navbar />
             <div className="container">
                 <br /><br /><br />
                 <BrowserView>
