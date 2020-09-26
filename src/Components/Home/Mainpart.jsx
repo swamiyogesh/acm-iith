@@ -61,7 +61,7 @@ function Mainpart() {
                         <br /><br />
                         <a><b> Chapter Started!</b></a>
                         <p>IIT Hyderabad ACM Student Chapter officially chartered on 31-08-2020</p>
-                        <a><b> Honoiurable mention to team</b></a>
+                        <a><b> Honourable mention to team</b></a>
                         <p>Lorem Epsum Event is gonna be awesome.</p>
                         <a><b> Inauguration</b></a>
                         <p>Lorem Epsum Event is gonna be awesome.</p>

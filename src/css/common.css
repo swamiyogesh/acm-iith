@@ -25,13 +25,16 @@ body {
 .navbar a {
     color: #000;
 }
+.navbar > .active > a{
+    background-color: #2f2f2f;
+}
 .navbar .right-links a {
     margin-left: -1%;
     font-size: 16px;
     display: inline-block;
 }
 .navbar .right-links a:hover {
-    color: #080e2c;
+    color: #479ff8;
     text-decoration: none;
 }
 /* SubNav */
@@ -42,6 +45,7 @@ body {
 .subNav a {
     color: #fff;
     margin-right: 20px;
+    margin-left: 20px;
 }
 .subNav a:hover {
     color: #fff;
