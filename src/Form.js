@@ -19,9 +19,9 @@ function Form()  {
     }
 	const appendSpreadsheet = async(row) =>	{
 		toast.success('Thanks for your response. Our team will get back to you shortly.')
-		const doc = new GoogleSpreadsheet('1iRewg0yJTdNm27chtnI_g5r245J11dLdSqT5Qip0yBI');
+		const doc = new GoogleSpreadsheet('YOUR API KEYS HERE');
 
-		await doc.useServiceAccountAuth(require('./peak-radius-289518-892f6a16e540.json'));
+		await doc.useServiceAccountAuth(require('SHEET CONFIG FILE HERE'));
 		await doc.loadInfo(); // loads document properties and worksheets
 		const sheet = doc.sheetsByIndex[0];
 		await sheet.addRow(row);
