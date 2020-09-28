@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../css/style.css';
 import '../../css/common.css';
+import Contact from '../../Contact';
 import { BrowserView, MobileView } from 'react-device-detect'
 
 function Mainpart() {
@@ -74,17 +75,14 @@ function Mainpart() {
             </div>
 
             <br /><br />
-            <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
-            <br /><br />
-            <p className="h35" id="contactus" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Contact Us</p>
-            <br  />
-            <div className="primaryContainer" style={{borderRadius: '15px', textAlign: 'center'}}>
-                <p class="h35" style={{color: "black"}}>Shoot us an email at the address below to get in touch!</p>
-                <br />
-                <a class="p30" href="mailto: acm.chapter@cse.iith.ac.in" style={{color: '#3074b7', fontSize: '20px'}}>acm.chapter@cse.iith.ac.in</a>
-            </div>
+            {/* <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
+            <br /><br /> */}
+
         </div>
-       <br /><br /><br /><br />
+
+        <Contact />
+
+       {/* <br /><br /><br /><br /> */}
         </div>
     )
 }

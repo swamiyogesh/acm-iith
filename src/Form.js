@@ -21,7 +21,7 @@ function Form()  {
 		toast.success('Thanks for your response. Our team will get back to you shortly.')
 		const doc = new GoogleSpreadsheet('YOUR API KEYS HERE');
 
-        await doc.useServiceAccountAuth(require('SHEET CONFIG FILE HERE'));
+        // await doc.useServiceAccountAuth(require('SHEET CONFIG FILE HERE'));
 		await doc.loadInfo(); // loads document properties and worksheets
 		const sheet = doc.sheetsByIndex[0];
 		await sheet.addRow(row);

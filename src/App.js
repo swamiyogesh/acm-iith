@@ -13,7 +13,7 @@ function App() {
       {/* <ImageContainer /> */}
       <br /><br />
       <Mainpart />
-      <br /><br />
+      {/* <br /><br /> */}
       {/* <div style={{position: 'relative', width: '100%', bottom: 0}}>
         <Footer />
       </div> */}
