@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/acm-iith/static/css/main.056ebf52.chunk.css",
-    "main.js": "/acm-iith/static/js/main.d0b943bc.chunk.js",
-    "main.js.map": "/acm-iith/static/js/main.d0b943bc.chunk.js.map",
+    "main.css": "/acm-iith/static/css/main.b3137a38.chunk.css",
+    "main.js": "/acm-iith/static/js/main.ddd57bad.chunk.js",
+    "main.js.map": "/acm-iith/static/js/main.ddd57bad.chunk.js.map",
     "runtime-main.js": "/acm-iith/static/js/runtime-main.96d9de5d.js",
     "runtime-main.js.map": "/acm-iith/static/js/runtime-main.96d9de5d.js.map",
     "static/css/2.d34346ea.chunk.css": "/acm-iith/static/css/2.d34346ea.chunk.css",
-    "static/js/2.495e5b94.chunk.js": "/acm-iith/static/js/2.495e5b94.chunk.js",
-    "static/js/2.495e5b94.chunk.js.map": "/acm-iith/static/js/2.495e5b94.chunk.js.map",
+    "static/js/2.ddc1921a.chunk.js": "/acm-iith/static/js/2.ddc1921a.chunk.js",
+    "static/js/2.ddc1921a.chunk.js.map": "/acm-iith/static/js/2.ddc1921a.chunk.js.map",
     "index.html": "/acm-iith/index.html",
-    "precache-manifest.b87f637c37ab99ad3c3d0c63107e56ca.js": "/acm-iith/precache-manifest.b87f637c37ab99ad3c3d0c63107e56ca.js",
+    "precache-manifest.de6985cd51fd92f080e715c9202ce156.js": "/acm-iith/precache-manifest.de6985cd51fd92f080e715c9202ce156.js",
     "service-worker.js": "/acm-iith/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/acm-iith/static/css/2.d34346ea.chunk.css.map",
-    "static/css/main.056ebf52.chunk.css.map": "/acm-iith/static/css/main.056ebf52.chunk.css.map",
-    "static/js/2.495e5b94.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.495e5b94.chunk.js.LICENSE.txt",
-    "static/media/acm.png": "/acm-iith/static/media/acm.f395300f.png",
+    "static/css/main.b3137a38.chunk.css.map": "/acm-iith/static/css/main.b3137a38.chunk.css.map",
+    "static/js/2.ddc1921a.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.ddc1921a.chunk.js.LICENSE.txt",
     "static/media/archana.jpg": "/acm-iith/static/media/archana.ff72bdd1.jpg",
     "static/media/chaitanya.jpg": "/acm-iith/static/media/chaitanya.be3e5a92.jpg",
     "static/media/deeptanshu.jpg": "/acm-iith/static/media/deeptanshu.922d2ff1.jpg",
-    "static/media/iith.png": "/acm-iith/static/media/iith.045c4a23.png",
+    "static/media/header_image_2.jpg": "/acm-iith/static/media/header_image_2.f7b98f57.jpg",
     "static/media/logo-3.jpg": "/acm-iith/static/media/logo-3.29d99a00.jpg",
-    "static/media/logo.jpg": "/acm-iith/static/media/logo.82f9cf42.jpg",
     "static/media/roopam.jpg": "/acm-iith/static/media/roopam.a2a24ce5.jpg",
     "static/media/surgan.jpg": "/acm-iith/static/media/surgan.8bcaaa18.jpg",
     "static/media/vedant.jpg": "/acm-iith/static/media/vedant.0393e16e.jpg",
@@ -29,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.96d9de5d.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.495e5b94.chunk.js",
-    "static/css/main.056ebf52.chunk.css",
-    "static/js/main.d0b943bc.chunk.js"
+    "static/js/2.ddc1921a.chunk.js",
+    "static/css/main.b3137a38.chunk.css",
+    "static/js/main.ddd57bad.chunk.js"
   ]
 }
