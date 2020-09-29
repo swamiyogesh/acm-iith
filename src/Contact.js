@@ -11,7 +11,7 @@ function Contact() {
     <div className="Contact"> 
         {/* <p className="h35" id="contactus" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Contact Us</p> */}
         <br  />
-        <div style={{backgroundColor: "#080e2c"}} id="contactus">
+        <div style={{backgroundColor: "#0b143f"}} id="contactus">
             <div className="container">
             <br />
             <div className="row">

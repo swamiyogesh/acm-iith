@@ -12,17 +12,17 @@ function Navbar()   {
         <BrowserView>
 
         <nav className="navbar navbar-expand-lg fixed-top ">
-            {/* <div className="container"> */}
-            <div class="logo"><a href="/acm-iith/#"><img src = {require('../../assets/images/logo-3.jpg')} style={{height: "7%", width:"7%"}}  alt=" " /></a></div>
-            <div style={{marginLeft:"-35%"}}>
+            <div className="container">
+            <div class="logo"><a href="/acm-iith/#"><img src = {require('../../assets/images/logo-3.jpg')} style={{height: "7%", width:"7%", marginLeft: "-6%"}}  alt=" " /></a></div>
+            <div style={{marginLeft:"-58%"}}>
             <label for="btn" class="icon">
                     <span class="fa fa-bars"></span>
                 </label>
                 <input type="checkbox" id="btn" />
                 <ul>
-            <li><a href="/acm-iith/#">Home</a></li>
-            <li><a href="/acm-iith/#/about">About Us</a></li>
-            <li><a href="/acm-iith/#/events">Events</a></li>
+            <li><a href="/acm-iith/#" style={{textDecoration: 'none'}}>Home</a></li>
+            <li><a href="/acm-iith/#/about" style={{textDecoration: 'none'}}>About Us</a></li>
+            <li><a href="/acm-iith/#/events" style={{textDecoration: 'none'}}>Events</a></li>
             
             
             <li>
@@ -30,10 +30,10 @@ function Navbar()   {
                     <a>Interest Groups</a>
                     <input type="checkbox" id="btn-2" />
                     <ul>
-                        <li><a href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</a></li>
-                        <li><a href="/acm-iith/#/info/systems-and-network">Systems and Networks</a></li>
-                        <li><a href="/acm-iith/#/info/theoretical-cs">Theoretical CS</a></li>
-                        <li><a href="/acm-iith/#/info/women-in-cs">Women in CS</a></li>
+                        <li><a href="/acm-iith/#/info/machine-intelligence" style={{textDecoration: 'none'}}>Machine Intelligence</a></li>
+                        <li><a href="/acm-iith/#/info/systems-and-network" style={{textDecoration: 'none'}}>Systems and Networks</a></li>
+                        <li><a href="/acm-iith/#/info/theoretical-cs" style={{textDecoration: 'none'}}>Theoretical CS</a></li>
+                        <li><a href="/acm-iith/#/info/women-in-cs" style={{textDecoration: 'none'}}>Women in CS</a></li>
                     </ul>
             </li>
 
@@ -48,11 +48,11 @@ function Navbar()   {
                     </ul>
             </li> */}
 
-            <li><AnchorLink href="#contactus">Contact Us</AnchorLink></li>
-            <li><a href="/acm-iith/#/joinus" target="_blank">Join Us</a></li>
+            <li><AnchorLink href="#contactus" style={{textDecoration: 'none'}}>Contact Us</AnchorLink></li>
+            <li><a href="/acm-iith/#/joinus" target="_blank" style={{textDecoration: 'none'}}>Join Us</a></li>
             </ul>
             </div>
-        {/* </div> */}
+        </div>
         </nav>
 
                 {/* <nav className="navbar navbar-expand-lg fixed-top">

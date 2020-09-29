@@ -17,7 +17,7 @@ function News()   {
                         <li class="event" data-date="8th Sep, 2020">
                           <h3>[Paper Title] Accepted at [Conf]</h3>
                           <p>
-                            One of our member [name], got their work on [] published on the topic of [] in [] coonference 2020.
+                            One of our member [name], got their work on [] published on the topic of [] in [] conference 2020.
                           </p>
                         </li>
                         <li class="event" data-date="31st Aug, 2020">

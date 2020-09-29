@@ -25,12 +25,12 @@ function Mainpart() {
                     {/* <br /> */}
                     <p id="aboutus" className="p18" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official non profit student chapter of the Association of Computing Machinery (ACM). Our aim is to unite computer fraternity at IIT Hyderabad to foster research in various disciplines of Computer Science under the shelter of department of Computer Science.
                         {/* IIT Hyderabad ACM student chapter has been officially... */}
-                        {/* <a href="/acm-iith/#/about">&nbsp;Know more about us.</a> */}
+                        <a href="/acm-iith/#/about">&nbsp;Know more</a>
                         <br />
                         {/* <button href="/acm-iith/#/about" type="button" class="btn btn-outline-primary">About Us</button> */}
                         {/* <br /> */}
                         <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span>Become a Member</span></button></a>&nbsp;
-                        <a href="/acm-iith/#/about"><button class="button-2"><span>Know more</span></button></a>
+                        {/* <a href="/acm-iith/#/about"><button class="button-2"><span>Know more</span></button></a> */}
                     </p>
                 </div>
             </div>      
