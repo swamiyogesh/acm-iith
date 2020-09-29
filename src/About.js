@@ -15,7 +15,8 @@ function About()   {
                 <br />
                 <p className="p18">                
                 IIT Hyderabad ACM student chapter is a group of enthusiastic students with the aim of uniting the computing fraternity of IIT Hyderabad under one platform to share ideas and cultivate the research and development interests among students. 
-                <br />
+                </p>
+                <p className="p18">
                 The chapter is divided into four Interest groups namely&nbsp;
                 {/* <ul style={{listStyleType: 'none'}}> */}
                 <a href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</a>,&nbsp;

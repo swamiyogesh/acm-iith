@@ -22,7 +22,7 @@ function WomenInCS()  {
                 </p>     
 
                 <br /><br />
-                <a class="p22" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Discussions</a>  
+                <a class="p22" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Activities</a>  
                 <br /><br />
                 <div className="primaryContainer">
                 <table class="table table-dark">
