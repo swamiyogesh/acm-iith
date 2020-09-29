@@ -27,7 +27,7 @@ function Navbar()   {
             
             <li>
                     <label for="btn-2" class="show">Interest Groups +</label>
-                    <a href="#">Interest Groups</a>
+                    <a>Interest Groups</a>
                     <input type="checkbox" id="btn-2" />
                     <ul>
                         <li><a href="/acm-iith/#/info/machine-intelligence">Machine Intelligence</a></li>
@@ -37,16 +37,16 @@ function Navbar()   {
                     </ul>
             </li>
 
-            <li>
+            {/* <li>
                     <label for="btn-3" class="show">Resources +</label>
-                    <a href="#">Resources</a>
+                    <a>Resources</a>
                     <input type="checkbox" id="btn-3" />
                     <ul>
                         <li><a href="/acm-iith/#/Posts">Posts</a></li>
                         <li><a href="/acm-iith/#/Projects">Projects</a></li>
                         <li><a href="/acm-iith/#/Publications">Publications</a></li>
                     </ul>
-            </li>
+            </li> */}
 
             <li><a href='/acm-iith/src/Components/Home/Mainpart.jsx#contactus'>Contact Us</a></li>
             <li><a href="/acm-iith/#/joinus" target="_blank">Join Us</a></li>

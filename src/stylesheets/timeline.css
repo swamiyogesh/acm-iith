@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "@import ": expected file to import (string or url()), was "compass"
+        on line 1 of /home/deeptanshu/Templates/ACM_IITH/dev/github_pages/acm-iith-githubpages/src/sass/timeline.scss
+
+1: @import compass
+2: 
+3: /* -------------------------------------
+4:  * For horizontal version, set the
+5:  * $vertical variable to false
+6:  * ------------------------------------- *\/
+
+Backtrace:
+/home/deeptanshu/Templates/ACM_IITH/dev/github_pages/acm-iith-githubpages/src/sass/timeline.scss:1
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1117:in `expr!'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:371:in `block in import_directive'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:370:in `loop'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:370:in `import_directive'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:222:in `special_directive'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:197:in `directive'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/var/lib/gems/2.5.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/usr/local/bin/compass:23:in `load'
+/usr/local/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \": expected file to import (string or url()), was \"compass\"\A         on line 1 of /home/deeptanshu/Templates/ACM_IITH/dev/github_pages/acm-iith-githubpages/src/sass/timeline.scss\A \A 1: @import compass\A 2: \A 3: /* -------------------------------------\A 4:  * For horizontal version, set the\A 5:  * $vertical variable to false\A 6:  * ------------------------------------- */"; }

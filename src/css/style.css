@@ -36,17 +36,18 @@ body {
     color: #fff;
 }
 .button {
-    border-radius: 25px;
-    background-color: #479ff8;
-    border: none;
-    color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #479ff8;
+    background-color: #fff;
+    color: #479ff8;
     text-align: center;
     font-size: 18px;
     padding:6px;
     width: 215px;
     transition: all 0.5s;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 0%;
+    margin-top: 1%;
 }
   
   .button span {

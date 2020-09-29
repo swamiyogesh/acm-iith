@@ -24,15 +24,19 @@ function Mainpart() {
                     
                 <div class="col-md">
                     <br />
-                    <p id="aboutus" className="p20" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official non profit student chapter of the Association of Computing Machinery(ACM). It aims at uniting students with an interest in Computer Science. It sanctions students from graduate and undergraduate backgrounds to interact, network and learn both technical and research aligned skills.
-                        IIT Hyderabad ACM student chapter has been officially...
-                        <a href="/acm-iith/#/about">&nbsp;Know more about us.</a>
+                    <p id="aboutus" className="p18" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official non profit student chapter of the Association of Computing Machinery (ACM). Our aim is to unite computer fraternity at IIT Hyderabad to foster research in various disciplines of Computer Science under the shelter of department of Computer Science.
+                        {/* IIT Hyderabad ACM student chapter has been officially... */}
+                        {/* <a href="/acm-iith/#/about">&nbsp;Know more about us.</a> */}
+                        <br />
+                        {/* <button href="/acm-iith/#/about" type="button" class="btn btn-outline-primary">About Us</button> */}
+                        <br />
+                        <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span>Become a Member</span></button></a>
                     </p>
                 </div>
             </div>      
-
-                <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
-                <br />
+            <br />
+            <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
+            <br />
 
 
 
@@ -45,14 +49,14 @@ function Mainpart() {
                         <br />
                         <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Upcoming Events</a>
                         <br /><br />
-                        <a><b> We are now live!</b></a>
-                        <p>Check us out at acm.iith.ac.in soon!</p>
-                        <a><b> Paper1!</b></a>
+                        <a><b> Inauguration</b></a>
+                        <p>Official Inauguration of chapter to IIT Hyderabad community coming on 8th October.</p>
+                        {/* <a><b> Paper1!</b></a>
                         <p>Check us out at acm.iith.ac.in soon!</p>
                         <a><b> Paper2!</b></a>
                         <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem EpsumLorem Epsum</p>
                         <a><b> xyz!</b></a>
-                        <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum</p>
+                        <p>Check us out at acm.iith.ac.in soon! Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum Lorem Epsum</p> */}
                         <br />
                     </div>
                     <div className="col-md-1"></div>
@@ -60,21 +64,21 @@ function Mainpart() {
                         <br />
                         <a class="p30" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;News</a>
                         <br /><br />
+                        <a><b> Puneet Paper</b></a>
+                        <p>Paper on....</p>
                         <a><b> Chapter Started!</b></a>
                         <p>IIT Hyderabad ACM Student Chapter officially chartered on 31-08-2020</p>
-                        <a><b> Honourable mention to team</b></a>
-                        <p>Lorem Epsum Event is gonna be awesome.</p>
-                        <a><b> Inauguration</b></a>
-                        <p>Lorem Epsum Event is gonna be awesome.</p>
-                        <a><b> Honourable mention to team</b></a>
-                        <p>Lorem Epsum Event is gonna be awesome.</p>
+                        <a><b></b></a>
+                        <p></p>
+                        <a><b> </b></a>
+                        <p></p>
                         <a href="/acm-iith/#/news"><u>See all</u></a>
                     </div>
                 </div>
             </div>
             </div>
 
-            <br /><br />
+            <br /><br /><br /><br /><br /><br />
             {/* <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
             <br /><br /> */}
 
