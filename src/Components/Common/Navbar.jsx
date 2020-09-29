@@ -11,10 +11,10 @@ function Navbar()   {
         <div className="Navbar">
         <BrowserView>
 
-        <nav className="navbar navbar-expand-lg fixed-top">
-            <div className="container">
-            <div class="logo"><a href="/acm-iith/#"><img src = {require('../../assets/images/logo-3.jpg')} style={{height: "15%", width:"15%", marginLeft: "-5%"}}  alt=" " /></a></div>
-            <div style={{marginLeft:"-58%"}}>
+        <nav className="navbar navbar-expand-lg fixed-top ">
+            {/* <div className="container"> */}
+            <div class="logo"><a href="/acm-iith/#"><img src = {require('../../assets/images/logo-3.jpg')} style={{height: "7%", width:"7%"}}  alt=" " /></a></div>
+            <div style={{marginLeft:"-35%"}}>
             <label for="btn" class="icon">
                     <span class="fa fa-bars"></span>
                 </label>
@@ -48,11 +48,11 @@ function Navbar()   {
                     </ul>
             </li> */}
 
-            <li><a href='/acm-iith/src/Components/Home/Mainpart.jsx#contactus'>Contact Us</a></li>
+            <li><AnchorLink href="#contactus">Contact Us</AnchorLink></li>
             <li><a href="/acm-iith/#/joinus" target="_blank">Join Us</a></li>
             </ul>
             </div>
-        </div>
+        {/* </div> */}
         </nav>
 
                 {/* <nav className="navbar navbar-expand-lg fixed-top">

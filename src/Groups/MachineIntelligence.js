@@ -3,13 +3,13 @@ import '../css/style.css';
 import '../css/common.css';
 import Navbar from '../Components/Common/Navbar'
 import { BrowserView, MobileView } from 'react-device-detect'
+import Contact from '../Contact';
 
 function MachineIntelligence()  {
     return (
         <div className="MachineIntelligence">
             <Navbar />
-            <div className="container">
-                <br /><br /><br />
+            <div className="container" style={{paddingTop: "25px"}}>
                 <BrowserView>
                     <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Machine Intelligence</p>
                 </BrowserView>
@@ -56,7 +56,7 @@ function MachineIntelligence()  {
                 <br /><br />
             </div>
 
-
+        <Contact />
         </div>
     )
 }

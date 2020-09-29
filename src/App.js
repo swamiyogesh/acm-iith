@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <ImageContainer /> */}
-      <br /><br />
+      <ImageContainer />
+      {/* <br /><br /> */}
       <Mainpart />
       {/* <br /><br /> */}
       {/* <div style={{position: 'relative', width: '100%', bottom: 0}}>

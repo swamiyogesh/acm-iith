@@ -8,34 +8,33 @@ function Mainpart() {
 
     return (
         <div className="Mainpart">
-            <br /><br /><br />
-            <div className="container">
+            <div className="container" style={{paddingTop: "25px"}}>
             <BrowserView>
-            <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT Hyderabad ACM Student Chapter</p>
+            <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT Hyderabad ACM Student Chapter</p>
             </BrowserView>
             <MobileView>
-            <p className="h50" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT &nbsp;Hyderabad &nbsp;ACM &nbsp;Student &nbsp;Chapter</p>
+            <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;IIT &nbsp;Hyderabad &nbsp;ACM &nbsp;Student &nbsp;Chapter</p>
             </MobileView>
-            <br />
+            {/* <br /> */}
             <div className="row">
                 {/* <div class="col-md-2">
                     <BrowserView><img src = {require('../../assets/images/logo.jpg')} style={{height: "90%", width:"110%"}}  alt=" " /></BrowserView>
                 </div> */}
                     
                 <div class="col-md">
-                    <br />
+                    {/* <br /> */}
                     <p id="aboutus" className="p18" style={{color: 'black', padding: '5px'}}>The IIT Hyderabad ACM student chapter is an official non profit student chapter of the Association of Computing Machinery (ACM). Our aim is to unite computer fraternity at IIT Hyderabad to foster research in various disciplines of Computer Science under the shelter of department of Computer Science.
                         {/* IIT Hyderabad ACM student chapter has been officially... */}
                         {/* <a href="/acm-iith/#/about">&nbsp;Know more about us.</a> */}
                         <br />
                         {/* <button href="/acm-iith/#/about" type="button" class="btn btn-outline-primary">About Us</button> */}
-                        <br />
-                        <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span>Become a Member</span></button></a>
+                        {/* <br /> */}
+                        <a href="/acm-iith/#/joinus" target="_blank"><button class="button"><span>Become a Member</span></button></a>&nbsp;
+                        <a href="/acm-iith/#/about"><button class="button-2"><span>Know more</span></button></a>
                     </p>
                 </div>
             </div>      
-            <br />
-            <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} />
+            {/* <hr style={{backgroundColor: "#C0C0C0", height:"1px"}} /> */}
             <br />
 
 

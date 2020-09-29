@@ -13,13 +13,13 @@ function Contact() {
         <br  />
         <div style={{backgroundColor: "#080e2c"}} id="contactus">
             <div className="container">
-            <br /><br />
+            <br />
             <div className="row">
                 <div className="col-md" style={{textAlign: "center"}}>
                 <p class="h35" style={{color: "#fff"}}>Contact Us</p>
-                <br />
+                {/* <br /> */}
                 <p className="h22" style={{color: "#fff"}}>We would love to hear from you. Please send us a message here or mail us at <a href="mailto: acm.chapter@cse.iith.ac.in">acm.chapter@cse.iith.ac.in</a></p>
-                <br /><br />
+                {/* <br /><br /> */}
                 <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src="https://img.icons8.com/fluent/48/000000/gmail.png"/>

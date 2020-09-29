@@ -3,7 +3,7 @@ import './css/style.css';
 import './css/common.css';
 import './css/timeline.css';
 import Navbar from './Components/Common/Navbar'
-import Footer from './Components/Common/Footer'
+import Contact from './Contact';
 
 function Events()   {
     return (
@@ -13,7 +13,7 @@ function Events()   {
             <div className="container">
             <p className="h35" style={{color: 'black', textDecoration: 'none', borderLeft: '5px solid #479ff8', top: '50%'}}>&nbsp;Events</p>
             </div> */}
-            <div class="main-container">
+            <div class="main-container" style={{height: '77vh'}}>
               <section id="timeline" class="timeline-outer">
                 <div class="container" id="content">
                   <div class="row">
@@ -57,7 +57,7 @@ function Events()   {
               </section>
               <br/>
             </div>
-
+          <Contact />
 </div>
 
 

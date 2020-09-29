@@ -1,6 +1,6 @@
 body {
     margin: 0px !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
 }
 /* MainPart */
 .mainPart {
@@ -74,8 +74,50 @@ body {
     opacity: 1;
     right: 0;
   }
+
+.button-2 {
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: #fff;
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    padding:6px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+  
+  .button-2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
   @media (min-width: 1000px) {
     .container{
-        max-width: 1200px;
+        max-width: 1000px;
     }
 }
