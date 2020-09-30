@@ -4,6 +4,7 @@ import './css/common.css';
 import { GoogleSpreadsheet } from "google-spreadsheet";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BrowserView, MobileView } from 'react-device-detect'
 
 function Form()  {
 	const [formData, setFormData] = useState({
@@ -29,7 +30,7 @@ function Form()  {
 	
     return (
         <div className="Form">
-			
+		<BrowserView>	
 			<div className="container">
 			<ToastContainer />
 						<br /><br />
@@ -49,6 +50,28 @@ function Form()  {
 						</form>
 				
         </div>
+        </BrowserView>
+        <MobileView>
+			<div className="container" style={{width:"100%"}}>
+			<ToastContainer />
+						<br /><br />
+						<form className="container" style={{paddingLeft: "10%"}} onSubmit={() => appendSpreadsheet(formData)}>
+							<p className="h22">Name</p>
+							<input className = "primaryInput" type="text" value={name} onChange={handleChange('name')} placeholder="Add Name " /><br /><br />
+
+							<p className="h22">Email</p>
+							<input className = "primaryInput" type="email" value={email} onChange={handleChange('email')} placeholder="Add Email " /><br /><br />
+
+							<p className="h22">Phone Number</p>
+							<input className = "primaryInput" type="number" value={number} onChange={handleChange('number')} placeholder="Add Number " /><br /><br />
+
+							<br /><br /><br /><br />
+							<center><button className="h40 primaryButton" type='submit' style={{cursor: "pointer", color: "#48a6f9"}}><img src="https://img.icons8.com/color/50/000000/tiktok-verified-account.png"/></button></center>
+							<br /><br />
+						</form>
+				
+        </div>
+        </MobileView>
         </div>
     )
 }
