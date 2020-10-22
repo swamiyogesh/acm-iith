@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/acm-iith/static/css/main.65706561.chunk.css",
-    "main.js": "/acm-iith/static/js/main.18aa64f1.chunk.js",
-    "main.js.map": "/acm-iith/static/js/main.18aa64f1.chunk.js.map",
+    "main.js": "/acm-iith/static/js/main.18dc9a50.chunk.js",
+    "main.js.map": "/acm-iith/static/js/main.18dc9a50.chunk.js.map",
     "runtime-main.js": "/acm-iith/static/js/runtime-main.96d9de5d.js",
     "runtime-main.js.map": "/acm-iith/static/js/runtime-main.96d9de5d.js.map",
     "static/css/2.d34346ea.chunk.css": "/acm-iith/static/css/2.d34346ea.chunk.css",
-    "static/js/2.31694b65.chunk.js": "/acm-iith/static/js/2.31694b65.chunk.js",
-    "static/js/2.31694b65.chunk.js.map": "/acm-iith/static/js/2.31694b65.chunk.js.map",
+    "static/js/2.ea06d601.chunk.js": "/acm-iith/static/js/2.ea06d601.chunk.js",
+    "static/js/2.ea06d601.chunk.js.map": "/acm-iith/static/js/2.ea06d601.chunk.js.map",
     "index.html": "/acm-iith/index.html",
-    "precache-manifest.b1a7b44c0e79c8b4d546ff6ef55abf55.js": "/acm-iith/precache-manifest.b1a7b44c0e79c8b4d546ff6ef55abf55.js",
+    "precache-manifest.b989d47f6eaef8760cf53a073b067528.js": "/acm-iith/precache-manifest.b989d47f6eaef8760cf53a073b067528.js",
     "service-worker.js": "/acm-iith/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/acm-iith/static/css/2.d34346ea.chunk.css.map",
     "static/css/main.65706561.chunk.css.map": "/acm-iith/static/css/main.65706561.chunk.css.map",
-    "static/js/2.31694b65.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.31694b65.chunk.js.LICENSE.txt",
+    "static/js/2.ea06d601.chunk.js.LICENSE.txt": "/acm-iith/static/js/2.ea06d601.chunk.js.LICENSE.txt",
+    "static/media/adeeba.jpg": "/acm-iith/static/media/adeeba.976207fc.jpg",
     "static/media/archana.jpg": "/acm-iith/static/media/archana.ff72bdd1.jpg",
     "static/media/chaitanya.jpg": "/acm-iith/static/media/chaitanya.be3e5a92.jpg",
     "static/media/deeptanshu.jpg": "/acm-iith/static/media/deeptanshu.922d2ff1.jpg",
     "static/media/header_image_2.jpg": "/acm-iith/static/media/header_image_2.f7b98f57.jpg",
+    "static/media/jaynee.jpg": "/acm-iith/static/media/jaynee.347f8222.jpg",
+    "static/media/jyoti.jpg": "/acm-iith/static/media/jyoti.5fb5d0f3.jpg",
     "static/media/logo-3.jpg": "/acm-iith/static/media/logo-3.29d99a00.jpg",
-    "static/media/roopam.jpg": "/acm-iith/static/media/roopam.a2a24ce5.jpg",
+    "static/media/piyushi.jpg": "/acm-iith/static/media/piyushi.b054e7e6.jpg",
+    "static/media/pratik.jpg": "/acm-iith/static/media/pratik.b242a1f8.jpg",
+    "static/media/puneet.jpg": "/acm-iith/static/media/puneet.23cc65b0.jpg",
+    "static/media/samujjwal.jpg": "/acm-iith/static/media/samujjwal.3e4b831f.jpg",
+    "static/media/sravanthi.jpg": "/acm-iith/static/media/sravanthi.abbfbe23.jpg",
     "static/media/surgan.jpg": "/acm-iith/static/media/surgan.8bcaaa18.jpg",
     "static/media/vedant.jpg": "/acm-iith/static/media/vedant.0393e16e.jpg",
     "static/media/vineeth.jpg": "/acm-iith/static/media/vineeth.592da830.jpg"
@@ -27,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.96d9de5d.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.31694b65.chunk.js",
+    "static/js/2.ea06d601.chunk.js",
     "static/css/main.65706561.chunk.css",
-    "static/js/main.18aa64f1.chunk.js"
+    "static/js/main.18dc9a50.chunk.js"
   ]
 }
