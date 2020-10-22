@@ -12,12 +12,33 @@ function Team()   {
             <div className="row">
                 <div className="col-md">
                     <center>
+                        {/* <img src={require("./assets/images/surgan.jpg")} style={{borderRadius:"100%",width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Surgan Jandial</p>
+                        <p className="p15">Chair</p>
+                        <br /><br /> */}
+                    </center>
+                </div>
+                <div className="col-md">
+                    <center>
                     <img src={require("./assets/images/vineeth.jpg")} style={{borderRadius:"100%",width: "50%",  padding: "2%"}} />
                         <p className="h22">Vineeth N Balasubramanian</p>
                         <p className="p15">Faculty Sponsor</p>
                         <br /><br /><br /><br />
                     </center>
                 </div>
+                <div className="col-md">
+                    <center>
+                        {/* <img src={require("./assets/images/chaitanya.jpg")} style={{borderRadius:"100%",width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Chaitanya Devaguptapu</p>
+                        <p className="p15">Vice Chair</p>
+                        <br /><br /> */}
+                    </center>
+                </div>
+            </div>
+            
+            <div className="row">
                 <div className="col-md">
                     <center>
                         <img src={require("./assets/images/surgan.jpg")} style={{borderRadius:"100%",width: "50%",  padding: "2%"}} />
@@ -36,9 +57,6 @@ function Team()   {
                         <br /><br />
                     </center>
                 </div>
-            </div>
-            
-            <div className="row">
                 <div className="col-md">
                     <center>
                         <img src={require("./assets/images/vedant.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
@@ -48,6 +66,9 @@ function Team()   {
                         <br /><br />
                     </center>
                 </div>
+            </div>
+
+            <div className="row">
                 <div className="col-md">
                     <center>
                         <img src={require("./assets/images/archana.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
@@ -64,6 +85,15 @@ function Team()   {
                         <p className="h22">Deeptanshu Sankhwar</p>
                         <p className="p15">Outreach Lead</p>
                         <br /><br />
+                    </center>
+                </div>
+                <div className="col-md">
+                    <center>
+                        {/* <img src={require("./assets/images/vedant.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Vedant Singh</p>
+                        <p className="p15">Treasurer</p>
+                        <br /><br /> */}
                     </center>
                 </div>
             </div>
@@ -140,19 +170,19 @@ function Team()   {
                         <br /><br />
                     </center>
                 </div>
-		<div className="col-md">
-                    <center>
-                        <img src={require("./assets/images/pratik.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
-                        <br />
-                        <p className="h22">Pratik Chhapolika</p>
-                        <br /><br />
-                    </center>
-                </div>
                 <div className="col-md">
                     <center>
                         <img src={require("./assets/images/puneet.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
                         <br />
                         <p className="h22">Puneet Mangla</p>
+                        <br /><br />
+                    </center>
+                </div>
+		        <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/pratik.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Pratik Chhapolika</p>
                         <br /><br />
                     </center>
                 </div>

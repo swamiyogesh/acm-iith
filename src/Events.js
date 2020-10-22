@@ -19,6 +19,12 @@ function Events()   {
                   <div class="row">
                     <div class="col s12 m12 l12">
                       <ul class="timeline">
+                        <li class="event" data-date="17th Oct, 2020">
+                          <h3>Reading Groups Commencement</h3>
+                          <p>
+                            Kaushal Kumar Maurya (CS PhD), will present his CIKM2020 work 'Learning To Distract'.
+                          </p>
+                        </li>
                         <li class="event" data-date="8th Oct, 2020">
                           <h3>IIT Hyderabad ACM Student Chapter Inaguartion</h3>
                           <p>
