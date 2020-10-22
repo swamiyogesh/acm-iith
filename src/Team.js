@@ -69,14 +69,14 @@ function Team()   {
             </div>
             
 
-            <a class="p20" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;CS Theoretical</a>
+            <a class="p20" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Systems and Networks Moderators</a>
             <br /><br /><br />
             <div className="row">
                 <div className="col-md">
                     <center>
-                        <img src={require("./assets/images/roopam.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <img src={require("./assets/images/jyoti.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
                         <br />
-                        <p className="h22">Roopam Saxena</p>
+                        <p className="h22">Jyoti Tiwari</p>
                         <br /><br />
                     </center>
                 </div>
@@ -97,6 +97,105 @@ function Team()   {
                     </center>
                 </div>
             </div>
+
+	
+	    <a class="p20" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Theoretical Computer Science Moderators</a>
+            <br /><br /><br />
+            <div className="row">
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/vedant.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Vedant Singh</p>
+                        <br /><br />
+                    </center>
+                </div>
+                <div className="col-md">
+                    {/* <center>
+                        <img src={require("./assets/images/deeptanshu.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Deeptanshu Sankhwar</p>
+                        <br /><br />
+                    </center> */}
+                </div>
+                <div className="col-md">
+                    <center>
+                        {/* <img src={require("./assets/images/vedant.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">CS Archana</p> */}
+                        <br /><br />
+                    </center>
+                </div>
+            </div>
+
+	
+           <a class="p20" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Machine Intelligence Moderators</a>
+            <br /><br /><br />
+            <div className="row">
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/samujjwal.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Samujjwal Ghosh</p>
+                        <br /><br />
+                    </center>
+                </div>
+		<div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/pratik.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Pratik Chhapolika</p>
+                        <br /><br />
+                    </center>
+                </div>
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/puneet.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Puneet Mangla</p>
+                        <br /><br />
+                    </center>
+                </div>
+            </div>
+	    
+
+            <a class="p20" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Women in Computer Science Moderators</a>
+            <br /><br /><br />
+            <div className="row">
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/piyushi.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Piyushi Manupriya</p>
+                        <br /><br />
+                    </center>
+                </div>
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/adeeba.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Adeeba Naaz</p>
+                        <br /><br />
+                    </center> 
+                </div>
+                <div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/sravanthi.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Sravanthi Reddy M</p>
+                        <br /><br />
+                    </center>
+                </div>
+		<div className="col-md">
+                    <center>
+                        <img src={require("./assets/images/jaynee.jpg")} style={{borderRadius:"100%", width: "50%",  padding: "2%"}} />
+                        <br />
+                        <p className="h22">Jaynee Rawal M</p>
+                        <br /><br />
+                    </center>
+                </div>
+            </div>
+
             <br /><br /><br />
         </div>
     )
