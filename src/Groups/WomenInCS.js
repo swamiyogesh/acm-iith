@@ -22,11 +22,11 @@ function WomenInCS()  {
                 </p>     
 
                 <br /><br />
-                <a class="p22" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Activities</a>  
+                {/* <a class="p22" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Activities</a>  
                 <br /><br />
                 <div className="primaryContainer">
-                <table class="table table-dark">
-                    <thead>
+                <table class="table">
+                    <thead class="thead-dark">
                         <tr>
                         <th scope="col">Date</th>
                         <th scope="col">Title</th>
@@ -55,7 +55,11 @@ function WomenInCS()  {
                         </tr>
                     </tbody>
                     </table>
-                </div>
+                </div> */}
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
                 <br /><br />
             </div>
             <Contact />

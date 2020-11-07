@@ -22,8 +22,8 @@ function Systemsandnetwork()  {
                 <a class="p22" style={{color: 'black', textDecoration: 'none', borderLeft:'3px solid #479ff8', top: '50%'}}>&nbsp;Activites</a>
                 <br /><br />
                 <div className="primaryContainer">
-                <table class="table table-dark">
-                    <thead>
+                <table class="table">
+                    <thead class="thead-dark">
                         <tr>
                         <th scope="col">Date</th>
                         <th scope="col">Title</th>
@@ -34,21 +34,9 @@ function Systemsandnetwork()  {
                     <tbody>
                         <tr>
                         <th scope="row">10th Sep, 2020</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        </tr>
-                        <tr>
-                        <th scope="row">12th Sep, 2020</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        </tr>
-                        <tr>
-                        <th scope="row">23rd Sep, 2020</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>Learning to Distract</td>
+                        <td>Kaushal Kumar Maurya</td>
+                        <td>@Kaushal00021344</td>
                         </tr>
                     </tbody>
                     </table>
